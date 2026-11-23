@@ -1,0 +1,12 @@
+# Environment specification for HybridCascade
+# Created: 2026-11-09 11:35 (Asia/Shanghai)
+name: jev06
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.12.4
+  - pip
+  - pip:
+      - -r requirements.txt
+      - -r requirements-dev.txt

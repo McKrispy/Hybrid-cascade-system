@@ -1,0 +1,23 @@
+services:
+  sandbox:
+    image: hybrid_cascade_sandbox:latest
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: hybrid_cascade_sandbox
+    command: ["python", "main.py", "--mode", "live"]
+    restart: unless-stopped
+    ports:
+      - "8090:8090"
+      - "8080:8090"
+    env_file:
+      - .env
+    volumes:
+      - ./data:/app/data
+      - ../archives:/app/archives:ro
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "50m"
+        max-file: "5"
+

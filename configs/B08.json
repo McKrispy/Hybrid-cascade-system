@@ -1,0 +1,68 @@
+{
+  "batch_id": "B08",
+  "config_id": "B08-C01",
+  "config_version": "2.0",
+  "schema_version": "2.0",
+  "description": "B08: Self-contained 7x24 streaming financial decision sandbox with dynamic rolling quantile gating and 300 historical replay events",
+  "seed": 42,
+  "sandbox_path": "dev/sandbox",
+  "symbols": ["BTC/USD", "ETH/USD", "NVDA", "TSLA"],
+  "sampling_interval_minutes": 30,
+  "horizon_hours": 4,
+  "volatility_threshold_factor": 0.5,
+  "gatekeeper": {
+    "quantile_threshold": 0.75,
+    "cooldown_minutes": 60,
+    "token_bucket_capacity": 4,
+    "token_bucket_refill_minutes": 30
+  },
+  "budget_limits": {
+    "single_tick_alert_usd": 0.06,
+    "daily_budget_cap_usd": 2.50,
+    "total_budget_cap_usd": 16.00
+  },
+  "portfolio": {
+    "initial_capital_usd": 100000.0,
+    "transaction_cost_bps": 5.0,
+    "accounts": [
+      "Jev_Standalone",
+      "Cascade_F0",
+      "Cascade_F1",
+      "Cascade_C0",
+      "Cascade_C1"
+    ]
+  },
+  "models": {
+    "jev-1.14.0": {
+      "model_id": "jev-1.14.0",
+      "provider": "typesafe",
+      "pricing": {
+        "input_cost_per_million": 0.042,
+        "output_cost_per_million": 0.0
+      }
+    },
+    "gpt-6.1-sol": {
+      "model_id": "gpt-6.1-sol",
+      "provider": "openai",
+      "pricing": {
+        "input_cost_per_million": 2.50,
+        "output_cost_per_million": 10.00
+      },
+      "max_completion_tokens": 800
+    },
+    "deepseek-v4.1-flash": {
+      "model_id": "deepseek-v4.1-flash",
+      "provider": "deepseek",
+      "pricing": {
+        "input_cost_per_million": 0.14,
+        "output_cost_per_million": 0.28
+      },
+      "max_completion_tokens": 800
+    }
+  },
+  "telemetry": {
+    "host": "0.0.0.0",
+    "port": 8090
+  }
+}
+

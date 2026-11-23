@@ -1,0 +1,107 @@
+{
+  "batch_id": "B04",
+  "config_id": "B04-C01",
+  "config_version": "1.0",
+  "schema_version": "1.0",
+  "description": "B04: Comparison of F0 cascades across four routing signals and two System-2 backends, fixing primary 1-p1 escalation masks",
+  "seed": 42,
+  "rate_limits": {
+    "max_concurrency": 1,
+    "timeout_seconds": 60.0,
+    "max_retries": 0,
+    "backoff_factor": 1.0
+  },
+  "budget_limits": {
+    "max_cost_usd": 0.0,
+    "max_requests": 1
+  },
+  "models": {},
+  "dataset_ids": [
+    "banking77",
+    "clinc150",
+    "anli_r2r3",
+    "strategyqa"
+  ],
+  "roles": {
+    "evaluation_roles": [
+      "calibration",
+      "selection"
+    ],
+    "holdout": {
+      "allowed": false,
+      "reason": "Holdout is strictly forbidden from being loaded or evaluated during B04."
+    }
+  },
+  "model_ids": [
+    "jev-1.14.0",
+    "gpt-6.1-sol",
+    "deepseek-v4.1-flash"
+  ],
+  "arm_ids": [
+    "F0"
+  ],
+  "input_references": {
+    "b02_run_dir": "dev/runs/B02/B02-C05",
+    "b02_predictions_file": "dev/runs/B02/B02-C05/predictions.json",
+    "b03_run_dir": "dev/runs/B03/B03-C01",
+    "b03_parameters_file": "dev/runs/B03/B03-C01/parameters.json",
+    "clinc_reject_policy_file": "dev/data/clinc_reject_policy.json",
+    "manifest_file": "dev/data/manifest.json",
+    "label_schemas_file": "dev/data/label_schemas.json"
+  },
+  "generation_parameters": {
+    "prompt_templates": null,
+    "reason": "B04 computes cascaded decisions using pre-collected B02 Jev and F0 predictions; no new LLM queries are dispatched."
+  },
+  "output_paths": {
+    "run_dir_template": "dev/runs/B04/B04-C{run_idx:02d}",
+    "primary_masks_file": "primary_masks.json",
+    "data_primary_masks_mirror": "dev/data/primary_masks.json",
+    "results_file": "results.json",
+    "audit_file": "audit.json",
+    "progress_file": "progress.json",
+    "cost_ledger_file": "cost_ledger.json",
+    "experiment_record": "dev/docs/exp_rec/B04.md"
+  },
+  "acceptance_criteria": [
+    "All 8 routing/backend combinations evaluated across calibration and selection dev pools",
+    "Budget points q in {0.15, 0.25, 0.35} evaluated with ceil(q * N_total)",
+    "Mask nesting M_15 subset M_25 subset M_35 verified across all datasets and roles",
+    "Primary handoff mask strictly uses 1-p1 signal, invariant across System-2 backends and performance outcomes",
+    "CLINC150 sorts ID and OOS together in a mixed pool; ANLI sorts R2 and R3 together",
+    "Cascaded predictions inherit Jev application output for unrouted samples, replace with F0 for routed samples",
+    "Net gain identity (Corrected - Damaged == Cascaded correct - Jev correct) holds exactly",
+    "Primary 35% mask union contains exactly 975 dev pool samples (650 calibration + 325 selection)",
+    "Zero external API calls ($0.00 USD cost) and zero holdout data accessed"
+  ],
+  "custom_params": {
+    "q_rates": [
+      0.15,
+      0.25,
+      0.35
+    ],
+    "primary_signal": "1-p1",
+    "routing_signals": [
+      "1-p1",
+      "1-margin",
+      "Hnorm",
+      "logistic"
+    ],
+    "system2_models": [
+      "gpt-6.1-sol",
+      "deepseek-v4.1-flash"
+    ],
+    "reference_baselines": [
+      "random",
+      "oracle"
+    ],
+    "tie_breaker": "sample_id_ascending",
+    "num_classes": {
+      "banking77": 77,
+      "clinc150": 150,
+      "anli_r2r3": 3,
+      "strategyqa": 2
+    }
+  }
+}
+

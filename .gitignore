@@ -1,0 +1,19 @@
+# Secrets & local environment
+.env
+sandbox/.env
+*.key
+*.pem
+
+# Python / caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.venv/
+.conda/
+
+# Large locally generated caches or raw downloads
+data/raw/
+runs/
+*.tar
+*.log

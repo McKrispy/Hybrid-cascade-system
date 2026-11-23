@@ -1,0 +1,82 @@
+{
+  "sandbox_id": "B08-SANDBOX-v2.0",
+  "version": "2.0.0",
+  "symbols": [
+    "BTC/USD",
+    "ETH/USD",
+    "NVDA",
+    "TSLA"
+  ],
+  "sampling_interval_minutes": 30,
+  "horizon_hours": 4,
+  "volatility_threshold_factor": 0.5,
+  "gatekeeper": {
+    "uncertainty_metric": "1-p1",
+    "rolling_window_hours": 48,
+    "quantile_threshold": 0.75,
+    "cooldown_minutes": 60,
+    "token_bucket": {
+      "capacity": 4,
+      "refill_interval_minutes": 30,
+      "refill_tokens": 1
+    }
+  },
+  "budget_killswitch": {
+    "single_tick_alert_usd": 0.06,
+    "daily_budget_cap_usd": 2.5,
+    "total_budget_cap_usd": 16.0
+  },
+  "portfolio": {
+    "initial_capital_usd": 100000.0,
+    "transaction_cost_bps": 5.0,
+    "position_scale": 0.03125,
+    "accounts": [
+      "Jev_Standalone",
+      "Cascade_F0",
+      "Cascade_F1",
+      "Cascade_C0",
+      "Cascade_C1"
+    ]
+  },
+  "models": {
+    "jev-1.14.0": {
+      "provider": "typesafe",
+      "endpoint": "https://api.typesafe.ai/v1/systemone",
+      "pricing": {
+        "input_cost_per_million": 0.042,
+        "output_cost_per_million": 0.0
+      }
+    },
+    "gpt-6.1-sol": {
+      "provider": "openai",
+      "endpoint": "https://api.openai.com/v1/chat/completions",
+      "pricing": {
+        "input_cost_per_million": 2.5,
+        "output_cost_per_million": 10.0
+      },
+      "max_completion_tokens": 800,
+      "temperature": 0.0
+    },
+    "deepseek-v4.1-flash": {
+      "provider": "deepseek",
+      "endpoint": "https://api.deepseek.com/v1/chat/completions",
+      "pricing": {
+        "input_cost_per_million": 0.14,
+        "output_cost_per_million": 0.28
+      },
+      "api_model_name": "deepseek-flash",
+      "max_completion_tokens": 800,
+      "temperature": 0.0
+    }
+  },
+  "telemetry": {
+    "host": "0.0.0.0",
+    "port": 8090
+  },
+  "data_paths": {
+    "records_file": "data/records.jsonl",
+    "ledger_file": "data/ledger.jsonl",
+    "checkpoints_file": "data/checkpoints.json",
+    "replay_file": "../archives/track2_alpaca_real/alpaca_real_30m_stream.jsonl"
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "batch_id": "B00",
+  "schema_version": "1.0",
+  "description": "B00: Environment, unified run schema, and synthetic smoke test for 3 API backends",
+  "seed": 42,
+  "rate_limits": {
+    "max_concurrency": 3,
+    "timeout_seconds": 30.0,
+    "max_retries": 3,
+    "backoff_factor": 1.5
+  },
+  "budget_limits": {
+    "max_cost_usd": 1.0,
+    "max_requests": 50
+  },
+  "models": {
+    "jev-1.14.0": {
+      "model_id": "jev-1.14.0",
+      "provider": "typesafe",
+      "endpoint": "https://api.typesafe.ai/v1/systemone",
+      "env_key_name": "TYPESAFE_API_KEY",
+      "pricing": {
+        "input_cost_per_million": 0.042,
+        "output_cost_per_million": 0.0
+      },
+      "parameters": {
+        "mode": "default_text"
+      }
+    },
+    "gpt-6.1-sol": {
+      "model_id": "gpt-6.1-sol",
+      "provider": "openai",
+      "endpoint": "https://api.openai.com/v1/chat/completions",
+      "env_key_name": "OPENAI_API_KEY",
+      "pricing": {
+        "input_cost_per_million": 2.50,
+        "output_cost_per_million": 10.00
+      },
+      "parameters": {
+        "max_tokens": 200
+      }
+    },
+    "deepseek-v4.1-flash": {
+      "model_id": "deepseek-v4.1-flash",
+      "provider": "deepseek",
+      "endpoint": "https://api.deepseek.com/v1/chat/completions",
+      "env_key_name": "DEEPSEEK_API_KEY",
+      "pricing": {
+        "input_cost_per_million": 0.14,
+        "output_cost_per_million": 0.28
+      },
+      "parameters": {
+        "api_model_name": "deepseek-flash",
+        "temperature": 0.0,
+        "max_tokens": 512
+      }
+    }
+  },
+  "synthetic_samples": [
+    {
+      "sample_id": "synth_choice_001",
+      "task_type": "choice",
+      "question": "Customer inquiry: 'I lost my card yesterday while traveling and need a replacement ASAP. How do I request one?'",
+      "options": ["card_replacement", "lost_or_stolen_card", "pin_reset", "balance_inquiry"],
+      "criteria": {
+        "card_replacement": "Customer specifically asks to receive a new card to replace an existing one.",
+        "lost_or_stolen_card": "Customer reports their card is missing, stolen, or misplaced.",
+        "pin_reset": "Customer needs to change or recover their security PIN.",
+        "balance_inquiry": "Customer wants to check account funds or recent charges."
+      },
+      "gold_label": "lost_or_stolen_card"
+    },
+    {
+      "sample_id": "synth_choice_002",
+      "task_type": "choice",
+      "question": "Premise: The scientist published the paper after six months of peer review.\nHypothesis: The peer review process lasted half a year.",
+      "options": ["entailment", "neutral", "contradiction"],
+      "criteria": {
+        "entailment": "The hypothesis must be true given the premise.",
+        "neutral": "The hypothesis may or may not be true given the premise.",
+        "contradiction": "The hypothesis must be false given the premise."
+      },
+      "gold_label": "entailment"
+    },
+    {
+      "sample_id": "synth_noul_001",
+      "task_type": "noul",
+      "question": "Can an adult human safely consume water frozen at minus 5 degrees Celsius directly after standard defrosting?",
+      "options": ["no", "yes"],
+      "criteria": null,
+      "gold_label": "yes"
+    }
+  ],
+  "custom_params": {
+    "arms_to_smoke": ["F0", "F1", "C0", "C1"]
+  }
+}
+

@@ -1,0 +1,78 @@
+{
+  "batch_id": "B02",
+  "schema_version": "1.0",
+  "description": "B02: Single-model development baselines (Jev, gpt-6.1-sol F0, deepseek-v4.1-flash F0)",
+  "seed": 42,
+  "rate_limits": {
+    "max_concurrency": 5,
+    "timeout_seconds": 35.0,
+    "max_retries": 3,
+    "backoff_factor": 1.5
+  },
+  "budget_limits": {
+    "max_cost_usd": 10.0,
+    "max_requests": 15000
+  },
+  "models": {
+    "jev-1.14.0": {
+      "model_id": "jev-1.14.0",
+      "provider": "typesafe",
+      "endpoint": "https://api.typesafe.ai/v1/systemone",
+      "env_key_name": "TYPESAFE_API_KEY",
+      "pricing": {
+        "input_cost_per_million": 0.042,
+        "output_cost_per_million": 0.0
+      },
+      "parameters": {
+        "mode": "default_text"
+      }
+    },
+    "gpt-6.1-sol": {
+      "model_id": "gpt-6.1-sol",
+      "provider": "openai",
+      "endpoint": "https://api.openai.com/v1/chat/completions",
+      "env_key_name": "OPENAI_API_KEY",
+      "pricing": {
+        "input_cost_per_million": 2.50,
+        "output_cost_per_million": 10.00
+      },
+      "parameters": {
+        "max_tokens": 1024
+      }
+    },
+    "deepseek-v4.1-flash": {
+      "model_id": "deepseek-v4.1-flash",
+      "provider": "deepseek",
+      "endpoint": "https://api.deepseek.com/v1/chat/completions",
+      "env_key_name": "DEEPSEEK_API_KEY",
+      "pricing": {
+        "input_cost_per_million": 0.14,
+        "output_cost_per_million": 0.28
+      },
+      "parameters": {
+        "api_model_name": "deepseek-flash",
+        "temperature": 0.0,
+        "max_tokens": 4096
+      }
+    }
+  },
+  "custom_params": {
+    "datasets": [
+      "banking77",
+      "clinc150",
+      "anli_r2r3",
+      "strategyqa"
+    ],
+    "roles": [
+      "calibration",
+      "selection"
+    ],
+    "arms": [
+      "F0"
+    ],
+    "ece_bins": 15,
+    "clinc_entropy_base": "natural",
+    "nll_epsilon": 1e-12
+  }
+}
+

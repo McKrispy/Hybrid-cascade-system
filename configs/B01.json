@@ -1,0 +1,124 @@
+{
+  "batch_id": "B01",
+  "schema_version": "1.0",
+  "description": "B01: Four benchmark datasets standardization, grouping, role splitting, and manifests",
+  "seed": 42,
+  "rate_limits": {
+    "max_concurrency": 1,
+    "timeout_seconds": 30.0,
+    "max_retries": 0,
+    "backoff_factor": 1.0
+  },
+  "budget_limits": {
+    "max_cost_usd": 0.0,
+    "max_requests": 1
+  },
+  "models": {},
+  "custom_params": {
+    "datasets": {
+      "banking77": {
+        "dataset_id": "banking77",
+        "task_type": "choice",
+        "source": "PolyAI-LDN/task-specific-datasets",
+        "target_total": 3080,
+        "role_ratios": {
+          "calibration": 0.2,
+          "selection": 0.1,
+          "holdout": 0.7
+        },
+        "target_counts": {
+          "calibration": 616,
+          "selection": 308,
+          "holdout": 2156
+        }
+      },
+      "clinc150": {
+        "dataset_id": "clinc150",
+        "task_type": "choice",
+        "source": "clinc/oos-eval",
+        "target_total": 2000,
+        "target_id": 1500,
+        "target_oos": 500,
+        "samples_per_id_intent": 10,
+        "role_ratios": {
+          "calibration": 0.2,
+          "selection": 0.1,
+          "holdout": 0.7
+        },
+        "target_counts": {
+          "calibration": {
+            "id": 300,
+            "oos": 100,
+            "total": 400
+          },
+          "selection": {
+            "id": 150,
+            "oos": 50,
+            "total": 200
+          },
+          "holdout": {
+            "id": 1050,
+            "oos": 350,
+            "total": 1400
+          }
+        }
+      },
+      "anli_r2r3": {
+        "dataset_id": "anli_r2r3",
+        "task_type": "choice",
+        "source": "facebookresearch/anli",
+        "target_total": 2200,
+        "target_r2": 1000,
+        "target_r3": 1200,
+        "role_ratios": {
+          "calibration": 0.2,
+          "selection": 0.1,
+          "holdout": 0.7
+        },
+        "target_counts": {
+          "calibration": {
+            "r2": 200,
+            "r3": 240,
+            "total": 440
+          },
+          "selection": {
+            "r2": 100,
+            "r3": 120,
+            "total": 220
+          },
+          "holdout": {
+            "r2": 700,
+            "r3": 840,
+            "total": 1540
+          }
+        }
+      },
+      "strategyqa": {
+        "dataset_id": "strategyqa",
+        "task_type": "noul",
+        "source": "eladsegal/strategyqa",
+        "target_total": 2000,
+        "role_ratios": {
+          "calibration": 0.2,
+          "selection": 0.1,
+          "holdout": 0.7
+        },
+        "target_counts": {
+          "calibration": 400,
+          "selection": 200,
+          "holdout": 1400
+        }
+      }
+    },
+    "b06_sampling_spec": {
+      "quota_per_dataset": 250,
+      "quotas_by_role": {
+        "calibration": 50,
+        "selection": 25,
+        "holdout": 175
+      },
+      "sampling_strategy": "deterministic_seed_sample_id_sorted",
+      "seed": 42
+    }
+  }
+}

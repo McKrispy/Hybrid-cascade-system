@@ -1,0 +1,121 @@
+{
+  "batch_id": "B05",
+  "config_id": "B05-C01",
+  "config_version": "1.0",
+  "schema_version": "1.0",
+  "description": "B05: Paired experiment of four handoff conditions (F0, F1, C0, C1) on development pool primary 35% mask union",
+  "seed": 42,
+  "rate_limits": {
+    "max_concurrency": 5,
+    "timeout_seconds": 35.0,
+    "max_retries": 3,
+    "backoff_factor": 1.5
+  },
+  "budget_limits": {
+    "max_cost_usd": 10.0,
+    "max_requests": 8000
+  },
+  "models": {
+    "gpt-6.1-sol": {
+      "model_id": "gpt-6.1-sol",
+      "provider": "openai",
+      "endpoint": "https://api.openai.com/v1/chat/completions",
+      "env_key_name": "OPENAI_API_KEY",
+      "pricing": {
+        "input_cost_per_million": 2.50,
+        "output_cost_per_million": 10.00
+      },
+      "parameters": {
+        "temperature": 0.0,
+        "max_tokens": 1024
+      }
+    },
+    "deepseek-v4.1-flash": {
+      "model_id": "deepseek-v4.1-flash",
+      "provider": "deepseek",
+      "endpoint": "https://api.deepseek.com/v1/chat/completions",
+      "env_key_name": "DEEPSEEK_API_KEY",
+      "pricing": {
+        "input_cost_per_million": 0.14,
+        "output_cost_per_million": 0.28
+      },
+      "parameters": {
+        "api_model_name": "deepseek-flash",
+        "temperature": 0.0,
+        "max_tokens": 4096
+      }
+    }
+  },
+  "dataset_ids": [
+    "banking77",
+    "clinc150",
+    "anli_r2r3",
+    "strategyqa"
+  ],
+  "roles": {
+    "evaluation_roles": [
+      "calibration",
+      "selection"
+    ],
+    "holdout": {
+      "allowed": false,
+      "reason": "Holdout is strictly forbidden from being loaded or evaluated during B05."
+    }
+  },
+  "model_ids": [
+    "gpt-6.1-sol",
+    "deepseek-v4.1-flash"
+  ],
+  "arm_ids": [
+    "F0",
+    "F1",
+    "C0",
+    "C1"
+  ],
+  "input_references": {
+    "primary_masks_file": "dev/data/primary_masks.json",
+    "b02_predictions_file": "dev/runs/B02/B02-C05/predictions.json",
+    "clinc_reject_policy_file": "dev/data/clinc_reject_policy.json",
+    "manifest_file": "dev/data/manifest.json",
+    "label_schemas_file": "dev/data/label_schemas.json"
+  },
+  "output_paths": {
+    "run_dir_template": "dev/runs/B05/B05-C{run_idx:02d}",
+    "predictions_file": "predictions.json",
+    "request_index_file": "request_index.json",
+    "results_file": "results.json",
+    "audit_file": "audit.json",
+    "progress_file": "progress.json",
+    "cost_ledger_file": "cost_ledger.json",
+    "experiment_record": "dev/docs/exp_rec/B05.md"
+  },
+  "acceptance_criteria": [
+    "F0 reused from B02 development pool predictions with zero redundant API calls",
+    "F1, C0, C1 collected strictly on primary 35% mask union (975 dev pool samples)",
+    "StrategyQA structural alias C0 -> F0 and C1 -> F1 registered without extra API requests",
+    "All four conditions use identical raw text, canonical label descriptions, and JSON schema",
+    "F1 and C1 provide identical Top-2 prior payload without re-normalization",
+    "CLINC150 retains REJECT in all four conditions",
+    "Main comparison (F1 - F0 on selection at q=25%) evaluated with paired 2,000-iteration group Bootstrap 95% CI",
+    "Pruning (C0 - F0), prior (C1 - C0), and interaction evaluated on 3 multiclass datasets",
+    "Holdout data strictly blocked and unread"
+  ],
+  "custom_params": {
+    "q_rates": [
+      0.15,
+      0.25,
+      0.35
+    ],
+    "primary_q": 0.25,
+    "bootstrap_samples": 2000,
+    "bootstrap_seed": 42,
+    "confidence_level": 0.95,
+    "num_classes": {
+      "banking77": 77,
+      "clinc150": 150,
+      "anli_r2r3": 3,
+      "strategyqa": 2
+    }
+  }
+}
+

@@ -1,0 +1,111 @@
+{
+  "batch_id": "B06",
+  "config_id": "B06-C01",
+  "config_version": "1.0",
+  "schema_version": "1.0",
+  "description": "B06: Optional numerical prior control (FR) comparing Top-2 identity and rank without probability values on 300 development pool samples",
+  "seed": 42,
+  "rate_limits": {
+    "max_concurrency": 5,
+    "timeout_seconds": 35.0,
+    "max_retries": 3,
+    "backoff_factor": 1.5
+  },
+  "budget_limits": {
+    "max_cost_usd": 5.0,
+    "max_requests": 1000
+  },
+  "models": {
+    "gpt-6.1-sol": {
+      "model_id": "gpt-6.1-sol",
+      "provider": "openai",
+      "endpoint": "https://api.openai.com/v1/chat/completions",
+      "env_key_name": "OPENAI_API_KEY",
+      "pricing": {
+        "input_cost_per_million": 2.50,
+        "output_cost_per_million": 10.00
+      },
+      "parameters": {
+        "temperature": 0.0,
+        "max_tokens": 1024
+      }
+    },
+    "deepseek-v4.1-flash": {
+      "model_id": "deepseek-v4.1-flash",
+      "provider": "deepseek",
+      "endpoint": "https://api.deepseek.com/v1/chat/completions",
+      "env_key_name": "DEEPSEEK_API_KEY",
+      "pricing": {
+        "input_cost_per_million": 0.14,
+        "output_cost_per_million": 0.28
+      },
+      "parameters": {
+        "api_model_name": "deepseek-flash",
+        "temperature": 0.0,
+        "max_tokens": 4096
+      }
+    }
+  },
+  "dataset_ids": [
+    "banking77",
+    "clinc150",
+    "anli_r2r3",
+    "strategyqa"
+  ],
+  "roles": {
+    "evaluation_roles": [
+      "calibration",
+      "selection"
+    ],
+    "holdout": {
+      "allowed": false,
+      "reason": "Holdout is strictly forbidden from being loaded or evaluated during B06. Holdout FR control is scheduled for B07."
+    }
+  },
+  "model_ids": [
+    "gpt-6.1-sol",
+    "deepseek-v4.1-flash"
+  ],
+  "arm_ids": [
+    "FR"
+  ],
+  "sampling_quotas": {
+    "calibration": 50,
+    "selection": 25,
+    "holdout": 175
+  },
+  "input_references": {
+    "primary_masks_file": "dev/data/primary_masks.json",
+    "b02_predictions_file": "dev/runs/B02/B02-C05/predictions.json",
+    "b05_predictions_file": "dev/runs/B05/B05-C01/predictions.json",
+    "clinc_reject_policy_file": "dev/data/clinc_reject_policy.json",
+    "manifest_file": "dev/data/manifest.json",
+    "label_schemas_file": "dev/data/label_schemas.json"
+  },
+  "output_paths": {
+    "run_dir_template": "dev/runs/B06/B06-C{run_idx:02d}",
+    "predictions_file": "predictions.json",
+    "sampled_manifest_file": "sampled_manifest.json",
+    "request_index_file": "request_index.json",
+    "results_file": "results.json",
+    "audit_file": "audit.json",
+    "progress_file": "progress.json",
+    "cost_ledger_file": "cost_ledger.json",
+    "experiment_record": "dev/docs/exp_rec/B06.md"
+  },
+  "acceptance_criteria": [
+    "FR uses full candidate options list and Top-2 identity/ranking without probability values",
+    "Prompt wording, candidate descriptions, and JSON schema strictly identical to F1",
+    "Sampled exactly 300 development pool samples (200 calibration, 100 selection, 75 per dataset) within primary 35% masks using seed 42",
+    "Holdout samples strictly unread and blocked (0 holdout access)",
+    "F0 reused from B02 and F1 reused from B05 with zero redundant API calls",
+    "Dispatched exactly 600 live requests (300 gpt-6.1-sol, 300 deepseek-v4.1-flash)",
+    "Paired metrics (F1 - FR and FR - F0) evaluated with 2,000-iteration Bootstrap 95% CI"
+  ],
+  "custom_params": {
+    "bootstrap_samples": 2000,
+    "bootstrap_seed": 42,
+    "confidence_level": 0.95
+  }
+}
+

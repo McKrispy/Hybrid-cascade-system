@@ -1,0 +1,141 @@
+{
+  "batch_id": "B03",
+  "config_id": "B03-C01",
+  "config_version": "1.0",
+  "schema_version": "1.0",
+  "description": "B03: Fit and evaluate three calibration methods (isotonic, logistic, temperature) on Jev System-1 outputs across four benchmark datasets",
+  "seed": 42,
+  "rate_limits": {
+    "max_concurrency": 1,
+    "timeout_seconds": 60.0,
+    "max_retries": 0,
+    "backoff_factor": 1.0
+  },
+  "budget_limits": {
+    "max_cost_usd": 0.0,
+    "max_requests": 1
+  },
+  "models": {},
+  "dataset_ids": [
+    "banking77",
+    "clinc150",
+    "anli_r2r3",
+    "strategyqa"
+  ],
+  "roles": {
+    "fit": "calibration",
+    "evaluate_and_select": "selection",
+    "holdout": {
+      "allowed": false,
+      "reason": "Holdout is strictly forbidden from being loaded or evaluated during B03."
+    }
+  },
+  "model_ids": [
+    "jev-1.14.0"
+  ],
+  "arm_ids": {
+    "evaluated": null,
+    "reason": "B03 is a calibration fitting batch on System-1 outputs; handoff arms (F0, F1, C0, C1) are evaluated in B04/B05."
+  },
+  "input_references": {
+    "b02_run_dir": "dev/runs/B02/B02-C05",
+    "predictions_file": "dev/runs/B02/B02-C05/predictions.json",
+    "clinc_reject_policy_file": "dev/data/clinc_reject_policy.json",
+    "manifest_file": "dev/data/manifest.json",
+    "label_schemas_file": "dev/data/label_schemas.json"
+  },
+  "generation_parameters": {
+    "prompt_templates": null,
+    "reason": "B03 consumes already-collected B02 predictions; no new LLM generation or prompts are executed."
+  },
+  "output_paths": {
+    "run_dir_template": "dev/runs/B03/B03-C{run_idx:02d}",
+    "parameters_file": "parameters.json",
+    "results_file": "results.json",
+    "audit_file": "audit.json",
+    "progress_file": "progress.json",
+    "cost_ledger_file": "cost_ledger.json",
+    "experiment_record": "dev/docs/exp_rec/B03.md"
+  },
+  "acceptance_criteria": [
+    "All three calibration methods fit strictly on calibration split (1,856 samples)",
+    "Holdout split (6,496 samples) is blocked and never accessed",
+    "Parameters are portable and serializable in parameters.json without external binary objects",
+    "CLINC150 temperature scaling fits strictly on ID samples (300 calibration ID samples)",
+    "CLINC150 error risk calibration targets mixed-pool application error using tau* = 0.159485",
+    "Model selection evaluates macro unweighted selection error Brier against raw 1-p1 baseline",
+    "Tie-breaker prioritizes isotonic, then registration order",
+    "At most one routing method family is selected for B04; if none beats baseline, null is recorded",
+    "Downstream handoff payload preserves raw Jev probabilities without overwriting with e_hat"
+  ],
+  "custom_params": {
+    "methods": {
+      "isotonic": {
+        "method_name": "isotonic",
+        "type": "error_risk_calibration",
+        "input_feature": "1 - margin",
+        "margin_definition": "p1 - p2",
+        "direction": "increasing",
+        "y_bounds": [0.0, 1.0],
+        "out_of_bounds": "clip",
+        "constant_fallback": "mean_calibration_error_rate"
+      },
+      "logistic": {
+        "method_name": "logistic",
+        "type": "error_risk_calibration",
+        "input_features": [
+          "p1",
+          "margin",
+          "h_norm"
+        ],
+        "regularization": "l2",
+        "C": 1.0,
+        "solver": "lbfgs",
+        "preprocessing": {
+          "type": "standard_scaler",
+          "fit_role": "calibration_only"
+        },
+        "constant_fallback": "mean_calibration_error_rate"
+      },
+      "temperature": {
+        "method_name": "temperature",
+        "type": "category_probability_calibration",
+        "formula": "softmax(log(clip(p, epsilon, 1.0)) / T)",
+        "loss": "nll",
+        "search_bounds": [
+          0.05,
+          10.0
+        ],
+        "clinc_restriction": "id_only",
+        "epsilon": 1e-12,
+        "fallback_temperature": 1.0
+      }
+    },
+    "selection_protocol": {
+      "candidates": [
+        "isotonic",
+        "logistic"
+      ],
+      "eval_role": "selection",
+      "eval_metric": "error_brier_score",
+      "aggregation": "macro_unweighted_average_across_4_datasets",
+      "comparison_baseline": "raw_1_minus_p1",
+      "decision_rules": {
+        "candidate_comparison": "lower_score_better",
+        "rule_1_strictly_lower_logistic": "if Brier(logistic) < Brier(isotonic) then select logistic",
+        "rule_2_strictly_lower_isotonic": "if Brier(isotonic) < Brier(logistic) then select isotonic",
+        "rule_3_tie_breaker": "if Brier(logistic) == Brier(isotonic) then select isotonic",
+        "rule_4_baseline_hurdle": "winner Brier must be strictly lower than raw 1-p1 Brier, otherwise select null (no calibrated routing candidate)",
+        "scope_boundary": "Only determines optional calibrated routing candidate for B04; never alters primary 1-p1 escalation mask nor replaces raw probabilities in F1/C1 handoff payload"
+      }
+    },
+    "ece_bins": 15,
+    "num_classes": {
+      "banking77": 77,
+      "clinc150": 150,
+      "anli_r2r3": 3,
+      "strategyqa": 2
+    }
+  }
+}
+

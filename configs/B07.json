@@ -1,0 +1,134 @@
+{
+  "batch_id": "B07",
+  "config_id": "B07-C01",
+  "config_version": "1.0",
+  "schema_version": "1.0",
+  "description": "B07: Final holdout evaluation of frozen handoff pipeline (Scope B: primary 35% mask union replication)",
+  "seed": 42,
+  "rate_limits": {
+    "max_concurrency": 5,
+    "timeout_seconds": 35.0,
+    "max_retries": 3,
+    "backoff_factor": 1.5
+  },
+  "budget_limits": {
+    "max_cost_usd": 30.0,
+    "max_requests": 30000
+  },
+  "models": {
+    "jev-1.14.0": {
+      "model_id": "jev-1.14.0",
+      "provider": "typesafe",
+      "endpoint": "https://api.typesafe.ai/v1/systemone",
+      "env_key_name": "TYPESAFE_API_KEY",
+      "pricing": {
+        "input_cost_per_million": 0.042,
+        "output_cost_per_million": 0.0
+      },
+      "parameters": {}
+    },
+    "gpt-6.1-sol": {
+      "model_id": "gpt-6.1-sol",
+      "provider": "openai",
+      "endpoint": "https://api.openai.com/v1/chat/completions",
+      "env_key_name": "OPENAI_API_KEY",
+      "pricing": {
+        "input_cost_per_million": 2.50,
+        "output_cost_per_million": 10.00
+      },
+      "parameters": {
+        "temperature": 0.0,
+        "max_tokens": 1024
+      }
+    },
+    "deepseek-v4.1-flash": {
+      "model_id": "deepseek-v4.1-flash",
+      "provider": "deepseek",
+      "endpoint": "https://api.deepseek.com/v1/chat/completions",
+      "env_key_name": "DEEPSEEK_API_KEY",
+      "pricing": {
+        "input_cost_per_million": 0.14,
+        "output_cost_per_million": 0.28
+      },
+      "parameters": {
+        "api_model_name": "deepseek-flash",
+        "temperature": 0.0,
+        "max_tokens": 4096
+      }
+    }
+  },
+  "dataset_ids": [
+    "banking77",
+    "clinc150",
+    "anli_r2r3",
+    "strategyqa"
+  ],
+  "roles": {
+    "evaluation_roles": [
+      "holdout"
+    ],
+    "holdout": {
+      "allowed": true,
+      "reason": "Holdout released under formal B07 approval."
+    }
+  },
+  "model_ids": [
+    "gpt-6.1-sol",
+    "deepseek-v4.1-flash"
+  ],
+  "arm_ids": [
+    "F0",
+    "F1",
+    "C0",
+    "C1",
+    "FR"
+  ],
+  "input_references": {
+    "clinc_reject_policy_file": "dev/data/clinc_reject_policy.json",
+    "manifest_file": "dev/data/manifest.json",
+    "label_schemas_file": "dev/data/label_schemas.json"
+  },
+  "output_paths": {
+    "run_dir_template": "dev/runs/B07/B07-C{run_idx:02d}",
+    "final_protocol_file": "final_protocol.json",
+    "holdout_primary_masks_file": "holdout_primary_masks.json",
+    "predictions_file": "predictions.json",
+    "request_index_file": "request_index.json",
+    "results_file": "results.json",
+    "audit_file": "audit.json",
+    "progress_file": "progress.json",
+    "cost_ledger_file": "cost_ledger.json",
+    "experiment_record": "dev/docs/exp_rec/B07.md"
+  },
+  "acceptance_criteria": [
+    "Pre-registered final_protocol.json generated and saved before evaluating any gold labels",
+    "Holdout samples loaded strictly with danger_enable_holdout_for_b07=True",
+    "All 6,496 holdout samples evaluated with jev-1.14.0",
+    "Deterministic holdout primary masks generated strictly from Jev 1-p1 risk order with zero gold leakage",
+    "System-2 conditions (F0, F1, C0, C1) collected on primary 35% mask union (2,274 samples)",
+    "StrategyQA structural alias C0 -> F0 and C1 -> F1 registered without extra API calls",
+    "Holdout FR control collected on registered 700-sample quota within primary 35% masks using seed 42",
+    "Primary contrast (F1 - F0 on holdout at q=25%) evaluated with paired 2,000-iteration group Bootstrap 95% CI",
+    "Pruning (C0 - F0), prior (C1 - C0), and interaction evaluated on 3 multiclass datasets",
+    "Data and billing strictly reconciled against actual platform pricing"
+  ],
+  "custom_params": {
+    "q_rates": [
+      0.15,
+      0.25,
+      0.35
+    ],
+    "primary_q": 0.25,
+    "bootstrap_samples": 2000,
+    "bootstrap_seed": 42,
+    "confidence_level": 0.95,
+    "num_classes": {
+      "banking77": 77,
+      "clinc150": 150,
+      "anli_r2r3": 3,
+      "strategyqa": 2
+    },
+    "b06_holdout_quota": 175
+  }
+}
+

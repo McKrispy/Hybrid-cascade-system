@@ -1,0 +1,169 @@
+{
+  "schema_version": "1.0",
+  "project_name": "Hybrid-Cascade-System",
+  "dev_root": ".",
+  "environment": {
+    "name": "hybrid_cascade",
+    "python_executable": "",
+    "python_version": "3.12.4",
+    "lock_file": "requirements-lock.txt"
+  },
+  "batches": {
+    "B00": {
+      "batch_id": "B00",
+      "name": "Environment, schema, and API connectivity validation",
+      "type": "research",
+      "max_new_configs": 1,
+      "prerequisites": [],
+      "status": "completed",
+      "config_file": "B00.json"
+    },
+    "P00": {
+      "batch_id": "P00",
+      "name": "Telemetry panel documents and state management",
+      "type": "engineering",
+      "max_new_configs": 0,
+      "prerequisites": [
+        "B00"
+      ],
+      "status": "completed",
+      "config_file": "panel.json"
+    },
+    "B01": {
+      "batch_id": "B01",
+      "name": "Static benchmark ingestion, grouping, and split manifests",
+      "type": "research",
+      "max_new_configs": 1,
+      "prerequisites": [
+        "B00",
+        "P00"
+      ],
+      "status": "completed",
+      "config_file": "B01.json"
+    },
+    "B02": {
+      "batch_id": "B02",
+      "name": "System-1 and blind System-2 development baselines",
+      "type": "research",
+      "max_new_configs": 3,
+      "prerequisites": [
+        "B00",
+        "B01"
+      ],
+      "status": "completed",
+      "config_file": "B02.json",
+      "latest_run_id": "B02-C05"
+    },
+    "P01": {
+      "batch_id": "P01",
+      "name": "Telemetry panel cost and handoff comparisons",
+      "type": "engineering",
+      "max_new_configs": 0,
+      "prerequisites": [
+        "P00",
+        "B02"
+      ],
+      "status": "completed",
+      "config_file": "panel.json"
+    },
+    "B03": {
+      "batch_id": "B03",
+      "name": "Post-hoc uncertainty calibration (isotonic, logistic, temperature)",
+      "type": "research",
+      "max_new_configs": 3,
+      "prerequisites": [
+        "B02",
+        "P01"
+      ],
+      "status": "completed",
+      "config_file": "B03.json",
+      "latest_run_id": "B03-C01"
+    },
+    "B04": {
+      "batch_id": "B04",
+      "name": "Uncertainty signal routing evaluation",
+      "type": "research",
+      "max_new_configs": 8,
+      "prerequisites": [
+        "B03"
+      ],
+      "status": "completed",
+      "config_file": "B04.json",
+      "latest_run_id": "B04-C01"
+    },
+    "B05": {
+      "batch_id": "B05",
+      "name": "Prior-assisted handoff and Top-2 pruning comparison",
+      "type": "research",
+      "max_new_configs": 6,
+      "prerequisites": [
+        "B04"
+      ],
+      "status": "completed",
+      "config_file": "B05.json",
+      "latest_run_id": "B05-C01"
+    },
+    "B06": {
+      "batch_id": "B06",
+      "name": "Probability-stripped Failure Recovery (FR) mechanism control",
+      "type": "research",
+      "max_new_configs": 2,
+      "prerequisites": [
+        "B05"
+      ],
+      "status": "completed",
+      "config_file": "B06.json",
+      "latest_run_id": "B06-C01"
+    },
+    "B07": {
+      "batch_id": "B07",
+      "name": "Frozen blind holdout evaluation",
+      "type": "research",
+      "max_new_configs": 0,
+      "prerequisites": [
+        "B03",
+        "B04",
+        "B05"
+      ],
+      "status": "completed",
+      "config_file": "B07.json",
+      "latest_run_id": "B07-C01"
+    },
+    "P02": {
+      "batch_id": "P02",
+      "name": "Offline verification and table reproduction",
+      "type": "engineering",
+      "max_new_configs": 0,
+      "prerequisites": [
+        "B07",
+        "P01"
+      ],
+      "status": "completed",
+      "config_file": null
+    },
+    "B08": {
+      "batch_id": "B08",
+      "name": "Self-contained streaming financial sandbox and historical replay",
+      "type": "research",
+      "max_new_configs": 1,
+      "prerequisites": [
+        "B05"
+      ],
+      "status": "completed",
+      "config_file": "B08.json",
+      "latest_run_id": "B08-C01"
+    },
+    "P03": {
+      "batch_id": "P03",
+      "name": "Streaming sandbox telemetry and shadow portfolio panel",
+      "type": "engineering",
+      "max_new_configs": 0,
+      "prerequisites": [
+        "P01",
+        "B08"
+      ],
+      "status": "completed",
+      "config_file": "panel.json"
+    }
+  }
+}

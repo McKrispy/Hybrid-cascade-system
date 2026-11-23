@@ -1,0 +1,9 @@
+{
+  "optimal_tau": 0.159485,
+  "balanced_accuracy": 0.516667,
+  "id_tpr": 0.813333,
+  "oos_tnr": 0.22,
+  "n_id": 150,
+  "n_oos": 50,
+  "tie_break_rule": "higher_tau"
+}

@@ -1,0 +1,7154 @@
+{
+  "timestamp": "2026-11-22 09:10:55",
+  "processed_ticks_count": 1145,
+  "escalated_ticks_count": 200,
+  "total_spent_usd": 4.845465,
+  "gatekeeper": {
+    "total_evaluated": 1145,
+    "total_escalated": 200,
+    "escalation_rate": 0.1747,
+    "total_suppressed_cooldown": 133,
+    "total_suppressed_bucket": 7,
+    "rolling_window_count": 384,
+    "current_quantile_75": 0.44,
+    "token_bucket": {
+      "capacity": 4.0,
+      "available_tokens": 3.0,
+      "refill_interval_seconds": 1800.0,
+      "refill_tokens": 1.0
+    }
+  },
+  "budget": {
+    "mode": "NORMAL",
+    "total_spent_usd": 4.8455,
+    "total_budget_cap_usd": 16.0,
+    "budget_remaining_pct": 69.72,
+    "rolling_24h_spent_usd": 0.8275,
+    "daily_budget_cap_usd": 10.0,
+    "alerts_count": 0
+  },
+  "portfolio": {
+    "Jev_Standalone": {
+      "account_id": "Jev_Standalone",
+      "nav": 100975.43,
+      "cumulative_return_pct": 0.975,
+      "sharpe_ratio": 1.05,
+      "max_drawdown_pct": 3.909,
+      "total_trades": 222,
+      "turnover": 249.0,
+      "history_points": 1145,
+      "nav_history": [
+        {
+          "timestamp": "2026-11-20 15:30:00",
+          "symbol": "TSLA",
+          "nav": 101126.94,
+          "return_pct": 1.127,
+          "position": -1.0
+        },
+        {
+          "timestamp": "2026-11-20 16:00:00",
+          "symbol": "BTC/USD",
+          "nav": 101114.67,
+          "return_pct": 1.115,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-20 16:00:00",
+          "symbol": "ETH/USD",
+          "nav": 101059.59,
+          "return_pct": 1.06,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-20 16:00:00",
+          "symbol": "NVDA",
+          "nav": 101255.08,
+          "return_pct": 1.255,
+          "position": -1.0
+        },
+        {
+          "timestamp": "2026-11-20 16:00:00",
+          "symbol": "TSLA",
+          "nav": 101368.97,
+          "return_pct": 1.369,
+          "position": -1.0
+        },
+        {
+          "timestamp": "2026-11-20 16:30:00",
+          "symbol": "BTC/USD",
+          "nav": 101368.97,
+          "return_pct": 1.369,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-20 16:30:00",
+          "symbol": "ETH/USD",
+          "nav": 101286.2,
+          "return_pct": 1.286,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-20 16:30:00",
+          "symbol": "NVDA",
+          "nav": 101000.98,
+          "return_pct": 1.001,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-20 16:30:00",
+          "symbol": "TSLA",
+          "nav": 101087.84,
+          "return_pct": 1.088,
+          "position": -1.0
+        },
+        {
+          "timestamp": "2026-11-20 17:00:00",
+          "symbol": "BTC/USD",
+          "nav": 101042.69,
+          "return_pct": 1.043,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-20 17:00:00",
+          "symbol": "ETH/USD",
+          "nav": 101003.12,
+          "return_pct": 1.003,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-20 17:00:00",
+          "symbol": "NVDA",
+          "nav": 100826.1,
+          "return_pct": 0.826,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-20 17:00:00",
+          "symbol": "TSLA",
+          "nav": 100862.4,
+          "return_pct": 0.862,
+          "position": -1.0
+        },
+        {
+          "timestamp": "2026-11-20 17:30:00",
+          "symbol": "BTC/USD",
+          "nav": 100852.18,
+          "return_pct": 0.852,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-20 17:30:00",
+          "symbol": "ETH/USD",
+          "nav": 100827.84,
+          "return_pct": 0.828,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-20 17:30:00",
+          "symbol": "NVDA",
+          "nav": 100670.21,
+          "return_pct": 0.67,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-20 17:30:00",
+          "symbol": "TSLA",
+          "nav": 100700.56,
+          "return_pct": 0.701,
+          "position": -1.0
+        },
+        {
+          "timestamp": "2026-11-20 18:00:00",
+          "symbol": "BTC/USD",
+          "nav": 100704.79,
+          "return_pct": 0.705,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-20 18:00:00",
+          "symbol": "ETH/USD",
+          "nav": 100684.74,
+          "return_pct": 0.685,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-20 18:30:00",
+          "symbol": "BTC/USD",
+          "nav": 100721.59,
+          "return_pct": 0.722,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-20 18:30:00",
+          "symbol": "ETH/USD",
+          "nav": 100729.96,
+          "return_pct": 0.73,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-20 19:00:00",
+          "symbol": "BTC/USD",
+          "nav": 100770.63,
+          "return_pct": 0.771,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-20 19:00:00",
+          "symbol": "ETH/USD",
+          "nav": 100813.62,
+          "return_pct": 0.814,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-20 19:30:00",
+          "symbol": "BTC/USD",
+          "nav": 100801.34,
+          "return_pct": 0.801,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-20 19:30:00",
+          "symbol": "ETH/USD",
+          "nav": 100826.38,
+          "return_pct": 0.826,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-20 20:00:00",
+          "symbol": "BTC/USD",
+          "nav": 100826.38,
+          "return_pct": 0.826,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-20 20:00:00",
+          "symbol": "ETH/USD",
+          "nav": 100849.33,
+          "return_pct": 0.849,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-20 20:30:00",
+          "symbol": "BTC/USD",
+          "nav": 100866.36,
+          "return_pct": 0.866,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-20 20:30:00",
+          "symbol": "ETH/USD",
+          "nav": 100905.75,
+          "return_pct": 0.906,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-20 21:00:00",
+          "symbol": "BTC/USD",
+          "nav": 100921.47,
+          "return_pct": 0.921,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-20 21:00:00",
+          "symbol": "ETH/USD",
+          "nav": 100940.47,
+          "return_pct": 0.94,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-20 21:30:00",
+          "symbol": "BTC/USD",
+          "nav": 100928.18,
+          "return_pct": 0.928,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-20 21:30:00",
+          "symbol": "ETH/USD",
+          "nav": 100941.44,
+          "return_pct": 0.941,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-20 22:00:00",
+          "symbol": "BTC/USD",
+          "nav": 100941.44,
+          "return_pct": 0.941,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-20 22:00:00",
+          "symbol": "ETH/USD",
+          "nav": 100929.27,
+          "return_pct": 0.929,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-20 22:30:00",
+          "symbol": "BTC/USD",
+          "nav": 100929.27,
+          "return_pct": 0.929,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-20 22:30:00",
+          "symbol": "ETH/USD",
+          "nav": 100929.27,
+          "return_pct": 0.929,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-20 23:00:00",
+          "symbol": "BTC/USD",
+          "nav": 100929.27,
+          "return_pct": 0.929,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-20 23:00:00",
+          "symbol": "ETH/USD",
+          "nav": 100929.27,
+          "return_pct": 0.929,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-20 23:30:00",
+          "symbol": "BTC/USD",
+          "nav": 100929.27,
+          "return_pct": 0.929,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-20 23:30:00",
+          "symbol": "ETH/USD",
+          "nav": 100929.27,
+          "return_pct": 0.929,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 00:00:00",
+          "symbol": "BTC/USD",
+          "nav": 100929.27,
+          "return_pct": 0.929,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 00:00:00",
+          "symbol": "ETH/USD",
+          "nav": 100929.27,
+          "return_pct": 0.929,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 00:30:00",
+          "symbol": "BTC/USD",
+          "nav": 100929.27,
+          "return_pct": 0.929,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 00:30:00",
+          "symbol": "ETH/USD",
+          "nav": 100929.27,
+          "return_pct": 0.929,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 01:00:00",
+          "symbol": "BTC/USD",
+          "nav": 100929.27,
+          "return_pct": 0.929,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 01:00:00",
+          "symbol": "ETH/USD",
+          "nav": 100929.27,
+          "return_pct": 0.929,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 01:30:00",
+          "symbol": "BTC/USD",
+          "nav": 100750.11,
+          "return_pct": 0.75,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-21 01:30:00",
+          "symbol": "ETH/USD",
+          "nav": 100750.11,
+          "return_pct": 0.75,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 02:00:00",
+          "symbol": "BTC/USD",
+          "nav": 100605.65,
+          "return_pct": 0.606,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-21 02:00:00",
+          "symbol": "ETH/USD",
+          "nav": 100494.32,
+          "return_pct": 0.494,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-21 02:30:00",
+          "symbol": "BTC/USD",
+          "nav": 100482.2,
+          "return_pct": 0.482,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 02:30:00",
+          "symbol": "ETH/USD",
+          "nav": 100470.09,
+          "return_pct": 0.47,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 03:00:00",
+          "symbol": "BTC/USD",
+          "nav": 100470.09,
+          "return_pct": 0.47,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 03:00:00",
+          "symbol": "ETH/USD",
+          "nav": 100470.09,
+          "return_pct": 0.47,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 03:30:00",
+          "symbol": "BTC/USD",
+          "nav": 100470.09,
+          "return_pct": 0.47,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 03:30:00",
+          "symbol": "ETH/USD",
+          "nav": 100470.09,
+          "return_pct": 0.47,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 04:00:00",
+          "symbol": "BTC/USD",
+          "nav": 100562.3,
+          "return_pct": 0.562,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-21 04:00:00",
+          "symbol": "ETH/USD",
+          "nav": 100696.7,
+          "return_pct": 0.697,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-21 04:30:00",
+          "symbol": "BTC/USD",
+          "nav": 100776.13,
+          "return_pct": 0.776,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-21 04:30:00",
+          "symbol": "ETH/USD",
+          "nav": 100905.59,
+          "return_pct": 0.906,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-21 05:00:00",
+          "symbol": "BTC/USD",
+          "nav": 101007.12,
+          "return_pct": 1.007,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-21 05:00:00",
+          "symbol": "ETH/USD",
+          "nav": 100994.89,
+          "return_pct": 0.995,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 05:30:00",
+          "symbol": "BTC/USD",
+          "nav": 101116.39,
+          "return_pct": 1.116,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-21 05:30:00",
+          "symbol": "ETH/USD",
+          "nav": 101116.39,
+          "return_pct": 1.116,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 06:00:00",
+          "symbol": "BTC/USD",
+          "nav": 101224.91,
+          "return_pct": 1.225,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-21 06:00:00",
+          "symbol": "ETH/USD",
+          "nav": 101224.91,
+          "return_pct": 1.225,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 06:30:00",
+          "symbol": "BTC/USD",
+          "nav": 101212.54,
+          "return_pct": 1.213,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 06:30:00",
+          "symbol": "ETH/USD",
+          "nav": 101212.54,
+          "return_pct": 1.213,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 07:00:00",
+          "symbol": "BTC/USD",
+          "nav": 101212.54,
+          "return_pct": 1.213,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 07:00:00",
+          "symbol": "ETH/USD",
+          "nav": 101212.54,
+          "return_pct": 1.213,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 07:30:00",
+          "symbol": "BTC/USD",
+          "nav": 101212.54,
+          "return_pct": 1.213,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 07:30:00",
+          "symbol": "ETH/USD",
+          "nav": 101212.54,
+          "return_pct": 1.213,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 08:00:00",
+          "symbol": "BTC/USD",
+          "nav": 101212.54,
+          "return_pct": 1.213,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 08:00:00",
+          "symbol": "ETH/USD",
+          "nav": 101212.54,
+          "return_pct": 1.213,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 08:30:00",
+          "symbol": "BTC/USD",
+          "nav": 101212.54,
+          "return_pct": 1.213,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 08:30:00",
+          "symbol": "ETH/USD",
+          "nav": 101212.54,
+          "return_pct": 1.213,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 09:00:00",
+          "symbol": "BTC/USD",
+          "nav": 101212.54,
+          "return_pct": 1.213,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 09:00:00",
+          "symbol": "ETH/USD",
+          "nav": 101212.54,
+          "return_pct": 1.213,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 09:30:00",
+          "symbol": "BTC/USD",
+          "nav": 101212.54,
+          "return_pct": 1.213,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 09:30:00",
+          "symbol": "ETH/USD",
+          "nav": 101212.54,
+          "return_pct": 1.213,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 10:00:00",
+          "symbol": "BTC/USD",
+          "nav": 101212.54,
+          "return_pct": 1.213,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 10:00:00",
+          "symbol": "ETH/USD",
+          "nav": 101212.54,
+          "return_pct": 1.213,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 10:30:00",
+          "symbol": "BTC/USD",
+          "nav": 101328.63,
+          "return_pct": 1.329,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-21 10:30:00",
+          "symbol": "ETH/USD",
+          "nav": 101408.93,
+          "return_pct": 1.409,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-21 11:00:00",
+          "symbol": "BTC/USD",
+          "nav": 101516.93,
+          "return_pct": 1.517,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-21 11:00:00",
+          "symbol": "ETH/USD",
+          "nav": 101414.37,
+          "return_pct": 1.414,
+          "position": -1.0
+        },
+        {
+          "timestamp": "2026-11-21 11:30:00",
+          "symbol": "BTC/USD",
+          "nav": 101297.58,
+          "return_pct": 1.298,
+          "position": -1.0
+        },
+        {
+          "timestamp": "2026-11-21 11:30:00",
+          "symbol": "ETH/USD",
+          "nav": 101238.61,
+          "return_pct": 1.239,
+          "position": -1.0
+        },
+        {
+          "timestamp": "2026-11-21 12:00:00",
+          "symbol": "BTC/USD",
+          "nav": 101156.32,
+          "return_pct": 1.156,
+          "position": -1.0
+        },
+        {
+          "timestamp": "2026-11-21 12:00:00",
+          "symbol": "ETH/USD",
+          "nav": 101111.92,
+          "return_pct": 1.112,
+          "position": -1.0
+        },
+        {
+          "timestamp": "2026-11-21 12:30:00",
+          "symbol": "BTC/USD",
+          "nav": 101050.01,
+          "return_pct": 1.05,
+          "position": -1.0
+        },
+        {
+          "timestamp": "2026-11-21 12:30:00",
+          "symbol": "ETH/USD",
+          "nav": 101013.2,
+          "return_pct": 1.013,
+          "position": -1.0
+        },
+        {
+          "timestamp": "2026-11-21 13:00:00",
+          "symbol": "BTC/USD",
+          "nav": 100978.72,
+          "return_pct": 0.979,
+          "position": -1.0
+        },
+        {
+          "timestamp": "2026-11-21 13:00:00",
+          "symbol": "ETH/USD",
+          "nav": 100963.72,
+          "return_pct": 0.964,
+          "position": -1.0
+        },
+        {
+          "timestamp": "2026-11-21 13:30:00",
+          "symbol": "BTC/USD",
+          "nav": 100988.34,
+          "return_pct": 0.988,
+          "position": -1.0
+        },
+        {
+          "timestamp": "2026-11-21 13:30:00",
+          "symbol": "ETH/USD",
+          "nav": 101024.86,
+          "return_pct": 1.025,
+          "position": -1.0
+        },
+        {
+          "timestamp": "2026-11-21 14:00:00",
+          "symbol": "BTC/USD",
+          "nav": 101012.52,
+          "return_pct": 1.013,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 14:00:00",
+          "symbol": "ETH/USD",
+          "nav": 100975.43,
+          "return_pct": 0.975,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-21 14:30:00",
+          "symbol": "BTC/USD",
+          "nav": 100975.43,
+          "return_pct": 0.975,
+          "position": 0.0
+        }
+      ]
+    },
+    "Cascade_F0": {
+      "account_id": "Cascade_F0",
+      "nav": 102462.66,
+      "cumulative_return_pct": 2.463,
+      "sharpe_ratio": 2.334,
+      "max_drawdown_pct": 3.047,
+      "total_trades": 298,
+      "turnover": 315.0,
+      "history_points": 1145,
+      "nav_history": [
+        {
+          "timestamp": "2026-11-20 15:30:00",
+          "symbol": "TSLA",
+          "nav": 103032.42,
+          "return_pct": 3.032,
+          "position": -1.0
+        },
+        {
+          "timestamp": "2026-11-20 16:00:00",
+          "symbol": "BTC/USD",
+          "nav": 103020.02,
+          "return_pct": 3.02,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-20 16:00:00",
+          "symbol": "ETH/USD",
+          "nav": 103007.77,
+          "return_pct": 3.008,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-20 16:00:00",
+          "symbol": "NVDA",
+          "nav": 102993.88,
+          "return_pct": 2.994,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-20 16:00:00",
+          "symbol": "TSLA",
+          "nav": 103105.0,
+          "return_pct": 3.105,
+          "position": -1.0
+        },
+        {
+          "timestamp": "2026-11-20 16:30:00",
+          "symbol": "BTC/USD",
+          "nav": 103105.0,
+          "return_pct": 3.105,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-20 16:30:00",
+          "symbol": "ETH/USD",
+          "nav": 103009.44,
+          "return_pct": 3.009,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-20 16:30:00",
+          "symbol": "NVDA",
+          "nav": 103009.44,
+          "return_pct": 3.009,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-20 16:30:00",
+          "symbol": "TSLA",
+          "nav": 103094.2,
+          "return_pct": 3.094,
+          "position": -1.0
+        },
+        {
+          "timestamp": "2026-11-20 17:00:00",
+          "symbol": "BTC/USD",
+          "nav": 103094.2,
+          "return_pct": 3.094,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-20 17:00:00",
+          "symbol": "ETH/USD",
+          "nav": 103054.38,
+          "return_pct": 3.054,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-20 17:00:00",
+          "symbol": "NVDA",
+          "nav": 102847.8,
+          "return_pct": 2.848,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-20 17:00:00",
+          "symbol": "TSLA",
+          "nav": 102883.22,
+          "return_pct": 2.883,
+          "position": -1.0
+        },
+        {
+          "timestamp": "2026-11-20 17:30:00",
+          "symbol": "BTC/USD",
+          "nav": 102860.48,
+          "return_pct": 2.86,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-20 17:30:00",
+          "symbol": "ETH/USD",
+          "nav": 102848.3,
+          "return_pct": 2.848,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-20 17:30:00",
+          "symbol": "NVDA",
+          "nav": 102676.79,
+          "return_pct": 2.677,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-20 17:30:00",
+          "symbol": "TSLA",
+          "nav": 102706.41,
+          "return_pct": 2.706,
+          "position": -1.0
+        },
+        {
+          "timestamp": "2026-11-20 18:00:00",
+          "symbol": "BTC/USD",
+          "nav": 102694.03,
+          "return_pct": 2.694,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-20 18:00:00",
+          "symbol": "ETH/USD",
+          "nav": 102661.66,
+          "return_pct": 2.662,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-20 18:30:00",
+          "symbol": "BTC/USD",
+          "nav": 102686.54,
+          "return_pct": 2.687,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-20 18:30:00",
+          "symbol": "ETH/USD",
+          "nav": 102674.38,
+          "return_pct": 2.674,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-20 19:00:00",
+          "symbol": "BTC/USD",
+          "nav": 102661.99,
+          "return_pct": 2.662,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-20 19:00:00",
+          "symbol": "ETH/USD",
+          "nav": 102693.05,
+          "return_pct": 2.693,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-20 19:30:00",
+          "symbol": "BTC/USD",
+          "nav": 102693.05,
+          "return_pct": 2.693,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-20 19:30:00",
+          "symbol": "ETH/USD",
+          "nav": 102718.21,
+          "return_pct": 2.718,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-20 20:00:00",
+          "symbol": "BTC/USD",
+          "nav": 102718.21,
+          "return_pct": 2.718,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-20 20:00:00",
+          "symbol": "ETH/USD",
+          "nav": 102706.03,
+          "return_pct": 2.706,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-20 20:30:00",
+          "symbol": "BTC/USD",
+          "nav": 102706.03,
+          "return_pct": 2.706,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-20 20:30:00",
+          "symbol": "ETH/USD",
+          "nav": 102733.37,
+          "return_pct": 2.733,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-20 21:00:00",
+          "symbol": "BTC/USD",
+          "nav": 102736.83,
+          "return_pct": 2.737,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-20 21:00:00",
+          "symbol": "ETH/USD",
+          "nav": 102693.4,
+          "return_pct": 2.693,
+          "position": -1.0
+        },
+        {
+          "timestamp": "2026-11-20 21:30:00",
+          "symbol": "BTC/USD",
+          "nav": 102681.02,
+          "return_pct": 2.681,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-20 21:30:00",
+          "symbol": "ETH/USD",
+          "nav": 102669.94,
+          "return_pct": 2.67,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-20 22:00:00",
+          "symbol": "BTC/USD",
+          "nav": 102669.94,
+          "return_pct": 2.67,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-20 22:00:00",
+          "symbol": "ETH/USD",
+          "nav": 102657.78,
+          "return_pct": 2.658,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-20 22:30:00",
+          "symbol": "BTC/USD",
+          "nav": 102657.78,
+          "return_pct": 2.658,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-20 22:30:00",
+          "symbol": "ETH/USD",
+          "nav": 102657.78,
+          "return_pct": 2.658,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-20 23:00:00",
+          "symbol": "BTC/USD",
+          "nav": 102657.78,
+          "return_pct": 2.658,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-20 23:00:00",
+          "symbol": "ETH/USD",
+          "nav": 102657.78,
+          "return_pct": 2.658,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-20 23:30:00",
+          "symbol": "BTC/USD",
+          "nav": 102657.78,
+          "return_pct": 2.658,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-20 23:30:00",
+          "symbol": "ETH/USD",
+          "nav": 102657.78,
+          "return_pct": 2.658,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 00:00:00",
+          "symbol": "BTC/USD",
+          "nav": 102657.78,
+          "return_pct": 2.658,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 00:00:00",
+          "symbol": "ETH/USD",
+          "nav": 102657.78,
+          "return_pct": 2.658,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 00:30:00",
+          "symbol": "BTC/USD",
+          "nav": 102657.78,
+          "return_pct": 2.658,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 00:30:00",
+          "symbol": "ETH/USD",
+          "nav": 102657.78,
+          "return_pct": 2.658,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 01:00:00",
+          "symbol": "BTC/USD",
+          "nav": 102657.78,
+          "return_pct": 2.658,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 01:00:00",
+          "symbol": "ETH/USD",
+          "nav": 102657.78,
+          "return_pct": 2.658,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 01:30:00",
+          "symbol": "BTC/USD",
+          "nav": 102657.78,
+          "return_pct": 2.658,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 01:30:00",
+          "symbol": "ETH/USD",
+          "nav": 102657.78,
+          "return_pct": 2.658,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 02:00:00",
+          "symbol": "BTC/USD",
+          "nav": 102498.79,
+          "return_pct": 2.499,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-21 02:00:00",
+          "symbol": "ETH/USD",
+          "nav": 102498.79,
+          "return_pct": 2.499,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 02:30:00",
+          "symbol": "BTC/USD",
+          "nav": 102486.5,
+          "return_pct": 2.486,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 02:30:00",
+          "symbol": "ETH/USD",
+          "nav": 102486.5,
+          "return_pct": 2.486,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 03:00:00",
+          "symbol": "BTC/USD",
+          "nav": 102486.5,
+          "return_pct": 2.486,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 03:00:00",
+          "symbol": "ETH/USD",
+          "nav": 102486.5,
+          "return_pct": 2.486,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 03:30:00",
+          "symbol": "BTC/USD",
+          "nav": 102486.5,
+          "return_pct": 2.486,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 03:30:00",
+          "symbol": "ETH/USD",
+          "nav": 102486.5,
+          "return_pct": 2.486,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 04:00:00",
+          "symbol": "BTC/USD",
+          "nav": 102580.04,
+          "return_pct": 2.58,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-21 04:00:00",
+          "symbol": "ETH/USD",
+          "nav": 102715.02,
+          "return_pct": 2.715,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-21 04:30:00",
+          "symbol": "BTC/USD",
+          "nav": 102702.68,
+          "return_pct": 2.703,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 04:30:00",
+          "symbol": "ETH/USD",
+          "nav": 102690.46,
+          "return_pct": 2.69,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 05:00:00",
+          "symbol": "BTC/USD",
+          "nav": 102780.73,
+          "return_pct": 2.781,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-21 05:00:00",
+          "symbol": "ETH/USD",
+          "nav": 102780.73,
+          "return_pct": 2.781,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 05:30:00",
+          "symbol": "BTC/USD",
+          "nav": 102768.35,
+          "return_pct": 2.768,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 05:30:00",
+          "symbol": "ETH/USD",
+          "nav": 102768.35,
+          "return_pct": 2.768,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 06:00:00",
+          "symbol": "BTC/USD",
+          "nav": 102865.0,
+          "return_pct": 2.865,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-21 06:00:00",
+          "symbol": "ETH/USD",
+          "nav": 102865.0,
+          "return_pct": 2.865,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 06:30:00",
+          "symbol": "BTC/USD",
+          "nav": 102852.58,
+          "return_pct": 2.853,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 06:30:00",
+          "symbol": "ETH/USD",
+          "nav": 102852.58,
+          "return_pct": 2.853,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 07:00:00",
+          "symbol": "BTC/USD",
+          "nav": 102852.58,
+          "return_pct": 2.853,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 07:00:00",
+          "symbol": "ETH/USD",
+          "nav": 102852.58,
+          "return_pct": 2.853,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 07:30:00",
+          "symbol": "BTC/USD",
+          "nav": 102852.58,
+          "return_pct": 2.853,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 07:30:00",
+          "symbol": "ETH/USD",
+          "nav": 102852.58,
+          "return_pct": 2.853,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 08:00:00",
+          "symbol": "BTC/USD",
+          "nav": 102852.58,
+          "return_pct": 2.853,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 08:00:00",
+          "symbol": "ETH/USD",
+          "nav": 102852.58,
+          "return_pct": 2.853,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 08:30:00",
+          "symbol": "BTC/USD",
+          "nav": 102852.58,
+          "return_pct": 2.853,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 08:30:00",
+          "symbol": "ETH/USD",
+          "nav": 102852.58,
+          "return_pct": 2.853,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 09:00:00",
+          "symbol": "BTC/USD",
+          "nav": 102852.58,
+          "return_pct": 2.853,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 09:00:00",
+          "symbol": "ETH/USD",
+          "nav": 102852.58,
+          "return_pct": 2.853,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 09:30:00",
+          "symbol": "BTC/USD",
+          "nav": 102852.58,
+          "return_pct": 2.853,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 09:30:00",
+          "symbol": "ETH/USD",
+          "nav": 102852.58,
+          "return_pct": 2.853,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 10:00:00",
+          "symbol": "BTC/USD",
+          "nav": 102852.58,
+          "return_pct": 2.853,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 10:00:00",
+          "symbol": "ETH/USD",
+          "nav": 102852.58,
+          "return_pct": 2.853,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 10:30:00",
+          "symbol": "BTC/USD",
+          "nav": 102852.58,
+          "return_pct": 2.853,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 10:30:00",
+          "symbol": "ETH/USD",
+          "nav": 102852.58,
+          "return_pct": 2.853,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 11:00:00",
+          "symbol": "BTC/USD",
+          "nav": 102948.1,
+          "return_pct": 2.948,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-21 11:00:00",
+          "symbol": "ETH/USD",
+          "nav": 102858.2,
+          "return_pct": 2.858,
+          "position": -1.0
+        },
+        {
+          "timestamp": "2026-11-21 11:30:00",
+          "symbol": "BTC/USD",
+          "nav": 102845.73,
+          "return_pct": 2.846,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 11:30:00",
+          "symbol": "ETH/USD",
+          "nav": 102786.99,
+          "return_pct": 2.787,
+          "position": -1.0
+        },
+        {
+          "timestamp": "2026-11-21 12:00:00",
+          "symbol": "BTC/USD",
+          "nav": 102692.0,
+          "return_pct": 2.692,
+          "position": -1.0
+        },
+        {
+          "timestamp": "2026-11-21 12:00:00",
+          "symbol": "ETH/USD",
+          "nav": 102647.76,
+          "return_pct": 2.648,
+          "position": -1.0
+        },
+        {
+          "timestamp": "2026-11-21 12:30:00",
+          "symbol": "BTC/USD",
+          "nav": 102585.69,
+          "return_pct": 2.586,
+          "position": -1.0
+        },
+        {
+          "timestamp": "2026-11-21 12:30:00",
+          "symbol": "ETH/USD",
+          "nav": 102573.57,
+          "return_pct": 2.574,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 13:00:00",
+          "symbol": "BTC/USD",
+          "nav": 102539.01,
+          "return_pct": 2.539,
+          "position": -1.0
+        },
+        {
+          "timestamp": "2026-11-21 13:00:00",
+          "symbol": "ETH/USD",
+          "nav": 102511.93,
+          "return_pct": 2.512,
+          "position": -1.0
+        },
+        {
+          "timestamp": "2026-11-21 13:30:00",
+          "symbol": "BTC/USD",
+          "nav": 102499.57,
+          "return_pct": 2.5,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 13:30:00",
+          "symbol": "ETH/USD",
+          "nav": 102487.46,
+          "return_pct": 2.487,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 14:00:00",
+          "symbol": "BTC/USD",
+          "nav": 102487.46,
+          "return_pct": 2.487,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 14:00:00",
+          "symbol": "ETH/USD",
+          "nav": 102462.66,
+          "return_pct": 2.463,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-21 14:30:00",
+          "symbol": "BTC/USD",
+          "nav": 102462.66,
+          "return_pct": 2.463,
+          "position": 0.0
+        }
+      ]
+    },
+    "Cascade_F1": {
+      "account_id": "Cascade_F1",
+      "nav": 101915.81,
+      "cumulative_return_pct": 1.916,
+      "sharpe_ratio": 2.07,
+      "max_drawdown_pct": 2.588,
+      "total_trades": 297,
+      "turnover": 323.0,
+      "history_points": 1145,
+      "nav_history": [
+        {
+          "timestamp": "2026-11-20 15:30:00",
+          "symbol": "TSLA",
+          "nav": 102659.73,
+          "return_pct": 2.66,
+          "position": -1.0
+        },
+        {
+          "timestamp": "2026-11-20 16:00:00",
+          "symbol": "BTC/USD",
+          "nav": 102647.31,
+          "return_pct": 2.647,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-20 16:00:00",
+          "symbol": "ETH/USD",
+          "nav": 102678.14,
+          "return_pct": 2.678,
+          "position": -1.0
+        },
+        {
+          "timestamp": "2026-11-20 16:00:00",
+          "symbol": "NVDA",
+          "nav": 102664.3,
+          "return_pct": 2.664,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-20 16:00:00",
+          "symbol": "TSLA",
+          "nav": 102774.1,
+          "return_pct": 2.774,
+          "position": -1.0
+        },
+        {
+          "timestamp": "2026-11-20 16:30:00",
+          "symbol": "BTC/USD",
+          "nav": 102774.1,
+          "return_pct": 2.774,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-20 16:30:00",
+          "symbol": "ETH/USD",
+          "nav": 102666.1,
+          "return_pct": 2.666,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-20 16:30:00",
+          "symbol": "NVDA",
+          "nav": 102666.1,
+          "return_pct": 2.666,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-20 16:30:00",
+          "symbol": "TSLA",
+          "nav": 102749.84,
+          "return_pct": 2.75,
+          "position": -1.0
+        },
+        {
+          "timestamp": "2026-11-20 17:00:00",
+          "symbol": "BTC/USD",
+          "nav": 102749.84,
+          "return_pct": 2.75,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-20 17:00:00",
+          "symbol": "ETH/USD",
+          "nav": 102709.98,
+          "return_pct": 2.71,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-20 17:00:00",
+          "symbol": "NVDA",
+          "nav": 102504.13,
+          "return_pct": 2.504,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-20 17:00:00",
+          "symbol": "TSLA",
+          "nav": 102539.14,
+          "return_pct": 2.539,
+          "position": -1.0
+        },
+        {
+          "timestamp": "2026-11-20 17:30:00",
+          "symbol": "BTC/USD",
+          "nav": 102516.36,
+          "return_pct": 2.516,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-20 17:30:00",
+          "symbol": "ETH/USD",
+          "nav": 102504.17,
+          "return_pct": 2.504,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-20 17:30:00",
+          "symbol": "NVDA",
+          "nav": 102333.28,
+          "return_pct": 2.333,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-20 17:30:00",
+          "symbol": "TSLA",
+          "nav": 102362.54,
+          "return_pct": 2.363,
+          "position": -1.0
+        },
+        {
+          "timestamp": "2026-11-20 18:00:00",
+          "symbol": "BTC/USD",
+          "nav": 102350.14,
+          "return_pct": 2.35,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-20 18:00:00",
+          "symbol": "ETH/USD",
+          "nav": 102317.74,
+          "return_pct": 2.318,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-20 18:30:00",
+          "symbol": "BTC/USD",
+          "nav": 102342.65,
+          "return_pct": 2.343,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-20 18:30:00",
+          "symbol": "ETH/USD",
+          "nav": 102330.47,
+          "return_pct": 2.33,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-20 19:00:00",
+          "symbol": "BTC/USD",
+          "nav": 102318.06,
+          "return_pct": 2.318,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-20 19:00:00",
+          "symbol": "ETH/USD",
+          "nav": 102349.16,
+          "return_pct": 2.349,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-20 19:30:00",
+          "symbol": "BTC/USD",
+          "nav": 102349.16,
+          "return_pct": 2.349,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-20 19:30:00",
+          "symbol": "ETH/USD",
+          "nav": 102374.36,
+          "return_pct": 2.374,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-20 20:00:00",
+          "symbol": "BTC/USD",
+          "nav": 102374.36,
+          "return_pct": 2.374,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-20 20:00:00",
+          "symbol": "ETH/USD",
+          "nav": 102362.16,
+          "return_pct": 2.362,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-20 20:30:00",
+          "symbol": "BTC/USD",
+          "nav": 102362.16,
+          "return_pct": 2.362,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-20 20:30:00",
+          "symbol": "ETH/USD",
+          "nav": 102389.53,
+          "return_pct": 2.39,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-20 21:00:00",
+          "symbol": "BTC/USD",
+          "nav": 102393.0,
+          "return_pct": 2.393,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-20 21:00:00",
+          "symbol": "ETH/USD",
+          "nav": 102349.51,
+          "return_pct": 2.35,
+          "position": -1.0
+        },
+        {
+          "timestamp": "2026-11-20 21:30:00",
+          "symbol": "BTC/USD",
+          "nav": 102337.11,
+          "return_pct": 2.337,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-20 21:30:00",
+          "symbol": "ETH/USD",
+          "nav": 102326.03,
+          "return_pct": 2.326,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-20 22:00:00",
+          "symbol": "BTC/USD",
+          "nav": 102326.03,
+          "return_pct": 2.326,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-20 22:00:00",
+          "symbol": "ETH/USD",
+          "nav": 102313.85,
+          "return_pct": 2.314,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-20 22:30:00",
+          "symbol": "BTC/USD",
+          "nav": 102313.85,
+          "return_pct": 2.314,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-20 22:30:00",
+          "symbol": "ETH/USD",
+          "nav": 102313.85,
+          "return_pct": 2.314,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-20 23:00:00",
+          "symbol": "BTC/USD",
+          "nav": 102313.85,
+          "return_pct": 2.314,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-20 23:00:00",
+          "symbol": "ETH/USD",
+          "nav": 102313.85,
+          "return_pct": 2.314,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-20 23:30:00",
+          "symbol": "BTC/USD",
+          "nav": 102313.85,
+          "return_pct": 2.314,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-20 23:30:00",
+          "symbol": "ETH/USD",
+          "nav": 102313.85,
+          "return_pct": 2.314,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 00:00:00",
+          "symbol": "BTC/USD",
+          "nav": 102313.85,
+          "return_pct": 2.314,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 00:00:00",
+          "symbol": "ETH/USD",
+          "nav": 102313.85,
+          "return_pct": 2.314,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 00:30:00",
+          "symbol": "BTC/USD",
+          "nav": 102313.85,
+          "return_pct": 2.314,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 00:30:00",
+          "symbol": "ETH/USD",
+          "nav": 102313.85,
+          "return_pct": 2.314,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 01:00:00",
+          "symbol": "BTC/USD",
+          "nav": 102313.85,
+          "return_pct": 2.314,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 01:00:00",
+          "symbol": "ETH/USD",
+          "nav": 102313.85,
+          "return_pct": 2.314,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 01:30:00",
+          "symbol": "BTC/USD",
+          "nav": 102313.85,
+          "return_pct": 2.314,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 01:30:00",
+          "symbol": "ETH/USD",
+          "nav": 102313.85,
+          "return_pct": 2.314,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 02:00:00",
+          "symbol": "BTC/USD",
+          "nav": 102154.64,
+          "return_pct": 2.155,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-21 02:00:00",
+          "symbol": "ETH/USD",
+          "nav": 102154.64,
+          "return_pct": 2.155,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 02:30:00",
+          "symbol": "BTC/USD",
+          "nav": 102142.32,
+          "return_pct": 2.142,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 02:30:00",
+          "symbol": "ETH/USD",
+          "nav": 102142.32,
+          "return_pct": 2.142,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 03:00:00",
+          "symbol": "BTC/USD",
+          "nav": 102142.32,
+          "return_pct": 2.142,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 03:00:00",
+          "symbol": "ETH/USD",
+          "nav": 102142.32,
+          "return_pct": 2.142,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 03:30:00",
+          "symbol": "BTC/USD",
+          "nav": 102062.74,
+          "return_pct": 2.063,
+          "position": -1.0
+        },
+        {
+          "timestamp": "2026-11-21 03:30:00",
+          "symbol": "ETH/USD",
+          "nav": 102062.74,
+          "return_pct": 2.063,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 04:00:00",
+          "symbol": "BTC/USD",
+          "nav": 102143.84,
+          "return_pct": 2.144,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-21 04:00:00",
+          "symbol": "ETH/USD",
+          "nav": 102279.0,
+          "return_pct": 2.279,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-21 04:30:00",
+          "symbol": "BTC/USD",
+          "nav": 102266.69,
+          "return_pct": 2.267,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 04:30:00",
+          "symbol": "ETH/USD",
+          "nav": 102254.45,
+          "return_pct": 2.254,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 05:00:00",
+          "symbol": "BTC/USD",
+          "nav": 102344.51,
+          "return_pct": 2.345,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-21 05:00:00",
+          "symbol": "ETH/USD",
+          "nav": 102344.51,
+          "return_pct": 2.345,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 05:30:00",
+          "symbol": "BTC/USD",
+          "nav": 102197.37,
+          "return_pct": 2.197,
+          "position": -1.0
+        },
+        {
+          "timestamp": "2026-11-21 05:30:00",
+          "symbol": "ETH/USD",
+          "nav": 102197.37,
+          "return_pct": 2.197,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 06:00:00",
+          "symbol": "BTC/USD",
+          "nav": 102281.0,
+          "return_pct": 2.281,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-21 06:00:00",
+          "symbol": "ETH/USD",
+          "nav": 102281.0,
+          "return_pct": 2.281,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 06:30:00",
+          "symbol": "BTC/USD",
+          "nav": 102268.68,
+          "return_pct": 2.269,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 06:30:00",
+          "symbol": "ETH/USD",
+          "nav": 102268.68,
+          "return_pct": 2.269,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 07:00:00",
+          "symbol": "BTC/USD",
+          "nav": 102268.68,
+          "return_pct": 2.269,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 07:00:00",
+          "symbol": "ETH/USD",
+          "nav": 102268.68,
+          "return_pct": 2.269,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 07:30:00",
+          "symbol": "BTC/USD",
+          "nav": 102268.68,
+          "return_pct": 2.269,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 07:30:00",
+          "symbol": "ETH/USD",
+          "nav": 102268.68,
+          "return_pct": 2.269,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 08:00:00",
+          "symbol": "BTC/USD",
+          "nav": 102268.68,
+          "return_pct": 2.269,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 08:00:00",
+          "symbol": "ETH/USD",
+          "nav": 102268.68,
+          "return_pct": 2.269,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 08:30:00",
+          "symbol": "BTC/USD",
+          "nav": 102268.68,
+          "return_pct": 2.269,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 08:30:00",
+          "symbol": "ETH/USD",
+          "nav": 102268.68,
+          "return_pct": 2.269,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 09:00:00",
+          "symbol": "BTC/USD",
+          "nav": 102268.68,
+          "return_pct": 2.269,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 09:00:00",
+          "symbol": "ETH/USD",
+          "nav": 102268.68,
+          "return_pct": 2.269,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 09:30:00",
+          "symbol": "BTC/USD",
+          "nav": 102268.68,
+          "return_pct": 2.269,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 09:30:00",
+          "symbol": "ETH/USD",
+          "nav": 102268.68,
+          "return_pct": 2.269,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 10:00:00",
+          "symbol": "BTC/USD",
+          "nav": 102268.68,
+          "return_pct": 2.269,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 10:00:00",
+          "symbol": "ETH/USD",
+          "nav": 102268.68,
+          "return_pct": 2.269,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 10:30:00",
+          "symbol": "BTC/USD",
+          "nav": 102268.68,
+          "return_pct": 2.269,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 10:30:00",
+          "symbol": "ETH/USD",
+          "nav": 102268.68,
+          "return_pct": 2.269,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 11:00:00",
+          "symbol": "BTC/USD",
+          "nav": 102363.41,
+          "return_pct": 2.363,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-21 11:00:00",
+          "symbol": "ETH/USD",
+          "nav": 102273.4,
+          "return_pct": 2.273,
+          "position": -1.0
+        },
+        {
+          "timestamp": "2026-11-21 11:30:00",
+          "symbol": "BTC/USD",
+          "nav": 102261.04,
+          "return_pct": 2.261,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 11:30:00",
+          "symbol": "ETH/USD",
+          "nav": 102202.22,
+          "return_pct": 2.202,
+          "position": -1.0
+        },
+        {
+          "timestamp": "2026-11-21 12:00:00",
+          "symbol": "BTC/USD",
+          "nav": 102108.01,
+          "return_pct": 2.108,
+          "position": -1.0
+        },
+        {
+          "timestamp": "2026-11-21 12:00:00",
+          "symbol": "ETH/USD",
+          "nav": 102063.72,
+          "return_pct": 2.064,
+          "position": -1.0
+        },
+        {
+          "timestamp": "2026-11-21 12:30:00",
+          "symbol": "BTC/USD",
+          "nav": 102002.16,
+          "return_pct": 2.002,
+          "position": -1.0
+        },
+        {
+          "timestamp": "2026-11-21 12:30:00",
+          "symbol": "ETH/USD",
+          "nav": 101990.02,
+          "return_pct": 1.99,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 13:00:00",
+          "symbol": "BTC/USD",
+          "nav": 101955.75,
+          "return_pct": 1.956,
+          "position": -1.0
+        },
+        {
+          "timestamp": "2026-11-21 13:00:00",
+          "symbol": "ETH/USD",
+          "nav": 101928.63,
+          "return_pct": 1.929,
+          "position": -1.0
+        },
+        {
+          "timestamp": "2026-11-21 13:30:00",
+          "symbol": "BTC/USD",
+          "nav": 101916.38,
+          "return_pct": 1.916,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 13:30:00",
+          "symbol": "ETH/USD",
+          "nav": 101952.82,
+          "return_pct": 1.953,
+          "position": -1.0
+        },
+        {
+          "timestamp": "2026-11-21 14:00:00",
+          "symbol": "BTC/USD",
+          "nav": 101952.82,
+          "return_pct": 1.953,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 14:00:00",
+          "symbol": "ETH/USD",
+          "nav": 101915.81,
+          "return_pct": 1.916,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-21 14:30:00",
+          "symbol": "BTC/USD",
+          "nav": 101915.81,
+          "return_pct": 1.916,
+          "position": 0.0
+        }
+      ]
+    },
+    "Cascade_C0": {
+      "account_id": "Cascade_C0",
+      "nav": 102101.84,
+      "cumulative_return_pct": 2.102,
+      "sharpe_ratio": 1.972,
+      "max_drawdown_pct": 3.14,
+      "total_trades": 282,
+      "turnover": 319.0,
+      "history_points": 1145,
+      "nav_history": [
+        {
+          "timestamp": "2026-11-20 15:30:00",
+          "symbol": "TSLA",
+          "nav": 102325.33,
+          "return_pct": 2.325,
+          "position": -1.0
+        },
+        {
+          "timestamp": "2026-11-20 16:00:00",
+          "symbol": "BTC/USD",
+          "nav": 102312.93,
+          "return_pct": 2.313,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-20 16:00:00",
+          "symbol": "ETH/USD",
+          "nav": 102300.67,
+          "return_pct": 2.301,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-20 16:00:00",
+          "symbol": "NVDA",
+          "nav": 102511.73,
+          "return_pct": 2.512,
+          "position": -1.0
+        },
+        {
+          "timestamp": "2026-11-20 16:00:00",
+          "symbol": "TSLA",
+          "nav": 102620.44,
+          "return_pct": 2.62,
+          "position": -1.0
+        },
+        {
+          "timestamp": "2026-11-20 16:30:00",
+          "symbol": "BTC/USD",
+          "nav": 102620.44,
+          "return_pct": 2.62,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-20 16:30:00",
+          "symbol": "ETH/USD",
+          "nav": 102524.88,
+          "return_pct": 2.525,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-20 16:30:00",
+          "symbol": "NVDA",
+          "nav": 102804.98,
+          "return_pct": 2.805,
+          "position": -1.0
+        },
+        {
+          "timestamp": "2026-11-20 16:30:00",
+          "symbol": "TSLA",
+          "nav": 102887.91,
+          "return_pct": 2.888,
+          "position": -1.0
+        },
+        {
+          "timestamp": "2026-11-20 17:00:00",
+          "symbol": "BTC/USD",
+          "nav": 102887.91,
+          "return_pct": 2.888,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-20 17:00:00",
+          "symbol": "ETH/USD",
+          "nav": 102848.09,
+          "return_pct": 2.848,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-20 17:00:00",
+          "symbol": "NVDA",
+          "nav": 102624.78,
+          "return_pct": 2.625,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-20 17:00:00",
+          "symbol": "TSLA",
+          "nav": 102659.43,
+          "return_pct": 2.659,
+          "position": -1.0
+        },
+        {
+          "timestamp": "2026-11-20 17:30:00",
+          "symbol": "BTC/USD",
+          "nav": 102636.69,
+          "return_pct": 2.637,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-20 17:30:00",
+          "symbol": "ETH/USD",
+          "nav": 102624.51,
+          "return_pct": 2.625,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-20 17:30:00",
+          "symbol": "NVDA",
+          "nav": 102450.87,
+          "return_pct": 2.451,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-20 17:30:00",
+          "symbol": "TSLA",
+          "nav": 102479.85,
+          "return_pct": 2.48,
+          "position": -1.0
+        },
+        {
+          "timestamp": "2026-11-20 18:00:00",
+          "symbol": "BTC/USD",
+          "nav": 102467.47,
+          "return_pct": 2.467,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-20 18:00:00",
+          "symbol": "ETH/USD",
+          "nav": 102435.1,
+          "return_pct": 2.435,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-20 18:30:00",
+          "symbol": "BTC/USD",
+          "nav": 102459.98,
+          "return_pct": 2.46,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-20 18:30:00",
+          "symbol": "ETH/USD",
+          "nav": 102447.82,
+          "return_pct": 2.448,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-20 19:00:00",
+          "symbol": "BTC/USD",
+          "nav": 102435.43,
+          "return_pct": 2.435,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-20 19:00:00",
+          "symbol": "ETH/USD",
+          "nav": 102466.49,
+          "return_pct": 2.466,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-20 19:30:00",
+          "symbol": "BTC/USD",
+          "nav": 102466.49,
+          "return_pct": 2.466,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-20 19:30:00",
+          "symbol": "ETH/USD",
+          "nav": 102491.65,
+          "return_pct": 2.492,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-20 20:00:00",
+          "symbol": "BTC/USD",
+          "nav": 102491.65,
+          "return_pct": 2.492,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-20 20:00:00",
+          "symbol": "ETH/USD",
+          "nav": 102479.47,
+          "return_pct": 2.479,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-20 20:30:00",
+          "symbol": "BTC/USD",
+          "nav": 102479.47,
+          "return_pct": 2.479,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-20 20:30:00",
+          "symbol": "ETH/USD",
+          "nav": 102506.81,
+          "return_pct": 2.507,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-20 21:00:00",
+          "symbol": "BTC/USD",
+          "nav": 102510.27,
+          "return_pct": 2.51,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-20 21:00:00",
+          "symbol": "ETH/USD",
+          "nav": 102498.08,
+          "return_pct": 2.498,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-20 21:30:00",
+          "symbol": "BTC/USD",
+          "nav": 102485.7,
+          "return_pct": 2.486,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-20 21:30:00",
+          "symbol": "ETH/USD",
+          "nav": 102486.79,
+          "return_pct": 2.487,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-20 22:00:00",
+          "symbol": "BTC/USD",
+          "nav": 102486.79,
+          "return_pct": 2.487,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-20 22:00:00",
+          "symbol": "ETH/USD",
+          "nav": 102474.61,
+          "return_pct": 2.475,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-20 22:30:00",
+          "symbol": "BTC/USD",
+          "nav": 102474.61,
+          "return_pct": 2.475,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-20 22:30:00",
+          "symbol": "ETH/USD",
+          "nav": 102474.61,
+          "return_pct": 2.475,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-20 23:00:00",
+          "symbol": "BTC/USD",
+          "nav": 102474.61,
+          "return_pct": 2.475,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-20 23:00:00",
+          "symbol": "ETH/USD",
+          "nav": 102474.61,
+          "return_pct": 2.475,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-20 23:30:00",
+          "symbol": "BTC/USD",
+          "nav": 102474.61,
+          "return_pct": 2.475,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-20 23:30:00",
+          "symbol": "ETH/USD",
+          "nav": 102474.61,
+          "return_pct": 2.475,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 00:00:00",
+          "symbol": "BTC/USD",
+          "nav": 102474.61,
+          "return_pct": 2.475,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 00:00:00",
+          "symbol": "ETH/USD",
+          "nav": 102474.61,
+          "return_pct": 2.475,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 00:30:00",
+          "symbol": "BTC/USD",
+          "nav": 102474.61,
+          "return_pct": 2.475,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 00:30:00",
+          "symbol": "ETH/USD",
+          "nav": 102474.61,
+          "return_pct": 2.475,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 01:00:00",
+          "symbol": "BTC/USD",
+          "nav": 102474.61,
+          "return_pct": 2.475,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 01:00:00",
+          "symbol": "ETH/USD",
+          "nav": 102474.61,
+          "return_pct": 2.475,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 01:30:00",
+          "symbol": "BTC/USD",
+          "nav": 102474.61,
+          "return_pct": 2.475,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 01:30:00",
+          "symbol": "ETH/USD",
+          "nav": 102474.61,
+          "return_pct": 2.475,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 02:00:00",
+          "symbol": "BTC/USD",
+          "nav": 102315.62,
+          "return_pct": 2.316,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-21 02:00:00",
+          "symbol": "ETH/USD",
+          "nav": 102315.62,
+          "return_pct": 2.316,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 02:30:00",
+          "symbol": "BTC/USD",
+          "nav": 102303.33,
+          "return_pct": 2.303,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 02:30:00",
+          "symbol": "ETH/USD",
+          "nav": 102303.33,
+          "return_pct": 2.303,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 03:00:00",
+          "symbol": "BTC/USD",
+          "nav": 102303.33,
+          "return_pct": 2.303,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 03:00:00",
+          "symbol": "ETH/USD",
+          "nav": 102303.33,
+          "return_pct": 2.303,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 03:30:00",
+          "symbol": "BTC/USD",
+          "nav": 102303.33,
+          "return_pct": 2.303,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 03:30:00",
+          "symbol": "ETH/USD",
+          "nav": 102179.76,
+          "return_pct": 2.18,
+          "position": -1.0
+        },
+        {
+          "timestamp": "2026-11-21 04:00:00",
+          "symbol": "BTC/USD",
+          "nav": 102273.3,
+          "return_pct": 2.273,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-21 04:00:00",
+          "symbol": "ETH/USD",
+          "nav": 102395.72,
+          "return_pct": 2.396,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-21 04:30:00",
+          "symbol": "BTC/USD",
+          "nav": 102383.38,
+          "return_pct": 2.383,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 04:30:00",
+          "symbol": "ETH/USD",
+          "nav": 102371.21,
+          "return_pct": 2.371,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 05:00:00",
+          "symbol": "BTC/USD",
+          "nav": 102461.48,
+          "return_pct": 2.461,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-21 05:00:00",
+          "symbol": "ETH/USD",
+          "nav": 102461.48,
+          "return_pct": 2.461,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 05:30:00",
+          "symbol": "BTC/USD",
+          "nav": 102449.1,
+          "return_pct": 2.449,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 05:30:00",
+          "symbol": "ETH/USD",
+          "nav": 102449.1,
+          "return_pct": 2.449,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 06:00:00",
+          "symbol": "BTC/USD",
+          "nav": 102545.75,
+          "return_pct": 2.546,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-21 06:00:00",
+          "symbol": "ETH/USD",
+          "nav": 102545.75,
+          "return_pct": 2.546,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 06:30:00",
+          "symbol": "BTC/USD",
+          "nav": 102533.33,
+          "return_pct": 2.533,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 06:30:00",
+          "symbol": "ETH/USD",
+          "nav": 102533.33,
+          "return_pct": 2.533,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 07:00:00",
+          "symbol": "BTC/USD",
+          "nav": 102533.33,
+          "return_pct": 2.533,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 07:00:00",
+          "symbol": "ETH/USD",
+          "nav": 102533.33,
+          "return_pct": 2.533,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 07:30:00",
+          "symbol": "BTC/USD",
+          "nav": 102533.33,
+          "return_pct": 2.533,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 07:30:00",
+          "symbol": "ETH/USD",
+          "nav": 102533.33,
+          "return_pct": 2.533,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 08:00:00",
+          "symbol": "BTC/USD",
+          "nav": 102533.33,
+          "return_pct": 2.533,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 08:00:00",
+          "symbol": "ETH/USD",
+          "nav": 102533.33,
+          "return_pct": 2.533,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 08:30:00",
+          "symbol": "BTC/USD",
+          "nav": 102533.33,
+          "return_pct": 2.533,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 08:30:00",
+          "symbol": "ETH/USD",
+          "nav": 102533.33,
+          "return_pct": 2.533,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 09:00:00",
+          "symbol": "BTC/USD",
+          "nav": 102533.33,
+          "return_pct": 2.533,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 09:00:00",
+          "symbol": "ETH/USD",
+          "nav": 102533.33,
+          "return_pct": 2.533,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 09:30:00",
+          "symbol": "BTC/USD",
+          "nav": 102533.33,
+          "return_pct": 2.533,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 09:30:00",
+          "symbol": "ETH/USD",
+          "nav": 102533.33,
+          "return_pct": 2.533,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 10:00:00",
+          "symbol": "BTC/USD",
+          "nav": 102533.33,
+          "return_pct": 2.533,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 10:00:00",
+          "symbol": "ETH/USD",
+          "nav": 102533.33,
+          "return_pct": 2.533,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 10:30:00",
+          "symbol": "BTC/USD",
+          "nav": 102533.33,
+          "return_pct": 2.533,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 10:30:00",
+          "symbol": "ETH/USD",
+          "nav": 102533.33,
+          "return_pct": 2.533,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 11:00:00",
+          "symbol": "BTC/USD",
+          "nav": 102628.85,
+          "return_pct": 2.629,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-21 11:00:00",
+          "symbol": "ETH/USD",
+          "nav": 102539.29,
+          "return_pct": 2.539,
+          "position": -1.0
+        },
+        {
+          "timestamp": "2026-11-21 11:30:00",
+          "symbol": "BTC/USD",
+          "nav": 102422.62,
+          "return_pct": 2.423,
+          "position": -1.0
+        },
+        {
+          "timestamp": "2026-11-21 11:30:00",
+          "symbol": "ETH/USD",
+          "nav": 102364.1,
+          "return_pct": 2.364,
+          "position": -1.0
+        },
+        {
+          "timestamp": "2026-11-21 12:00:00",
+          "symbol": "BTC/USD",
+          "nav": 102281.9,
+          "return_pct": 2.282,
+          "position": -1.0
+        },
+        {
+          "timestamp": "2026-11-21 12:00:00",
+          "symbol": "ETH/USD",
+          "nav": 102237.83,
+          "return_pct": 2.238,
+          "position": -1.0
+        },
+        {
+          "timestamp": "2026-11-21 12:30:00",
+          "symbol": "BTC/USD",
+          "nav": 102176.0,
+          "return_pct": 2.176,
+          "position": -1.0
+        },
+        {
+          "timestamp": "2026-11-21 12:30:00",
+          "symbol": "ETH/USD",
+          "nav": 102139.46,
+          "return_pct": 2.139,
+          "position": -1.0
+        },
+        {
+          "timestamp": "2026-11-21 13:00:00",
+          "symbol": "BTC/USD",
+          "nav": 102105.03,
+          "return_pct": 2.105,
+          "position": -1.0
+        },
+        {
+          "timestamp": "2026-11-21 13:00:00",
+          "symbol": "ETH/USD",
+          "nav": 102090.14,
+          "return_pct": 2.09,
+          "position": -1.0
+        },
+        {
+          "timestamp": "2026-11-21 13:30:00",
+          "symbol": "BTC/USD",
+          "nav": 102114.73,
+          "return_pct": 2.115,
+          "position": -1.0
+        },
+        {
+          "timestamp": "2026-11-21 13:30:00",
+          "symbol": "ETH/USD",
+          "nav": 102150.98,
+          "return_pct": 2.151,
+          "position": -1.0
+        },
+        {
+          "timestamp": "2026-11-21 14:00:00",
+          "symbol": "BTC/USD",
+          "nav": 102138.65,
+          "return_pct": 2.139,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 14:00:00",
+          "symbol": "ETH/USD",
+          "nav": 102101.84,
+          "return_pct": 2.102,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-21 14:30:00",
+          "symbol": "BTC/USD",
+          "nav": 102101.84,
+          "return_pct": 2.102,
+          "position": 0.0
+        }
+      ]
+    },
+    "Cascade_C1": {
+      "account_id": "Cascade_C1",
+      "nav": 101416.83,
+      "cumulative_return_pct": 1.417,
+      "sharpe_ratio": 1.437,
+      "max_drawdown_pct": 3.545,
+      "total_trades": 280,
+      "turnover": 315.0,
+      "history_points": 1145,
+      "nav_history": [
+        {
+          "timestamp": "2026-11-20 15:30:00",
+          "symbol": "TSLA",
+          "nav": 101511.21,
+          "return_pct": 1.511,
+          "position": -1.0
+        },
+        {
+          "timestamp": "2026-11-20 16:00:00",
+          "symbol": "BTC/USD",
+          "nav": 101498.81,
+          "return_pct": 1.499,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-20 16:00:00",
+          "symbol": "ETH/USD",
+          "nav": 101486.55,
+          "return_pct": 1.487,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-20 16:00:00",
+          "symbol": "NVDA",
+          "nav": 101694.89,
+          "return_pct": 1.695,
+          "position": -1.0
+        },
+        {
+          "timestamp": "2026-11-20 16:00:00",
+          "symbol": "TSLA",
+          "nav": 101801.64,
+          "return_pct": 1.802,
+          "position": -1.0
+        },
+        {
+          "timestamp": "2026-11-20 16:30:00",
+          "symbol": "BTC/USD",
+          "nav": 101801.64,
+          "return_pct": 1.802,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-20 16:30:00",
+          "symbol": "ETH/USD",
+          "nav": 101706.08,
+          "return_pct": 1.706,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-20 16:30:00",
+          "symbol": "NVDA",
+          "nav": 101982.57,
+          "return_pct": 1.983,
+          "position": -1.0
+        },
+        {
+          "timestamp": "2026-11-20 16:30:00",
+          "symbol": "TSLA",
+          "nav": 102064.0,
+          "return_pct": 2.064,
+          "position": -1.0
+        },
+        {
+          "timestamp": "2026-11-20 17:00:00",
+          "symbol": "BTC/USD",
+          "nav": 102064.0,
+          "return_pct": 2.064,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-20 17:00:00",
+          "symbol": "ETH/USD",
+          "nav": 102024.18,
+          "return_pct": 2.024,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-20 17:00:00",
+          "symbol": "NVDA",
+          "nav": 101803.75,
+          "return_pct": 1.804,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-20 17:00:00",
+          "symbol": "TSLA",
+          "nav": 101837.78,
+          "return_pct": 1.838,
+          "position": -1.0
+        },
+        {
+          "timestamp": "2026-11-20 17:30:00",
+          "symbol": "BTC/USD",
+          "nav": 101815.04,
+          "return_pct": 1.815,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-20 17:30:00",
+          "symbol": "ETH/USD",
+          "nav": 101802.85,
+          "return_pct": 1.803,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-20 17:30:00",
+          "symbol": "NVDA",
+          "nav": 101631.46,
+          "return_pct": 1.631,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-20 17:30:00",
+          "symbol": "TSLA",
+          "nav": 101659.91,
+          "return_pct": 1.66,
+          "position": -1.0
+        },
+        {
+          "timestamp": "2026-11-20 18:00:00",
+          "symbol": "BTC/USD",
+          "nav": 101647.53,
+          "return_pct": 1.648,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-20 18:00:00",
+          "symbol": "ETH/USD",
+          "nav": 101615.16,
+          "return_pct": 1.615,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-20 18:30:00",
+          "symbol": "BTC/USD",
+          "nav": 101640.04,
+          "return_pct": 1.64,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-20 18:30:00",
+          "symbol": "ETH/USD",
+          "nav": 101627.88,
+          "return_pct": 1.628,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-20 19:00:00",
+          "symbol": "BTC/USD",
+          "nav": 101615.49,
+          "return_pct": 1.615,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-20 19:00:00",
+          "symbol": "ETH/USD",
+          "nav": 101646.55,
+          "return_pct": 1.647,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-20 19:30:00",
+          "symbol": "BTC/USD",
+          "nav": 101646.55,
+          "return_pct": 1.647,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-20 19:30:00",
+          "symbol": "ETH/USD",
+          "nav": 101671.71,
+          "return_pct": 1.672,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-20 20:00:00",
+          "symbol": "BTC/USD",
+          "nav": 101671.71,
+          "return_pct": 1.672,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-20 20:00:00",
+          "symbol": "ETH/USD",
+          "nav": 101659.53,
+          "return_pct": 1.66,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-20 20:30:00",
+          "symbol": "BTC/USD",
+          "nav": 101659.53,
+          "return_pct": 1.66,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-20 20:30:00",
+          "symbol": "ETH/USD",
+          "nav": 101686.87,
+          "return_pct": 1.687,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-20 21:00:00",
+          "symbol": "BTC/USD",
+          "nav": 101690.33,
+          "return_pct": 1.69,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-20 21:00:00",
+          "symbol": "ETH/USD",
+          "nav": 101678.14,
+          "return_pct": 1.678,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-20 21:30:00",
+          "symbol": "BTC/USD",
+          "nav": 101665.76,
+          "return_pct": 1.666,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-20 21:30:00",
+          "symbol": "ETH/USD",
+          "nav": 101666.85,
+          "return_pct": 1.667,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-20 22:00:00",
+          "symbol": "BTC/USD",
+          "nav": 101666.85,
+          "return_pct": 1.667,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-20 22:00:00",
+          "symbol": "ETH/USD",
+          "nav": 101654.67,
+          "return_pct": 1.655,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-20 22:30:00",
+          "symbol": "BTC/USD",
+          "nav": 101654.67,
+          "return_pct": 1.655,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-20 22:30:00",
+          "symbol": "ETH/USD",
+          "nav": 101654.67,
+          "return_pct": 1.655,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-20 23:00:00",
+          "symbol": "BTC/USD",
+          "nav": 101654.67,
+          "return_pct": 1.655,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-20 23:00:00",
+          "symbol": "ETH/USD",
+          "nav": 101654.67,
+          "return_pct": 1.655,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-20 23:30:00",
+          "symbol": "BTC/USD",
+          "nav": 101654.67,
+          "return_pct": 1.655,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-20 23:30:00",
+          "symbol": "ETH/USD",
+          "nav": 101654.67,
+          "return_pct": 1.655,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 00:00:00",
+          "symbol": "BTC/USD",
+          "nav": 101654.67,
+          "return_pct": 1.655,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 00:00:00",
+          "symbol": "ETH/USD",
+          "nav": 101654.67,
+          "return_pct": 1.655,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 00:30:00",
+          "symbol": "BTC/USD",
+          "nav": 101654.67,
+          "return_pct": 1.655,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 00:30:00",
+          "symbol": "ETH/USD",
+          "nav": 101654.67,
+          "return_pct": 1.655,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 01:00:00",
+          "symbol": "BTC/USD",
+          "nav": 101654.67,
+          "return_pct": 1.655,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 01:00:00",
+          "symbol": "ETH/USD",
+          "nav": 101654.67,
+          "return_pct": 1.655,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 01:30:00",
+          "symbol": "BTC/USD",
+          "nav": 101654.67,
+          "return_pct": 1.655,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 01:30:00",
+          "symbol": "ETH/USD",
+          "nav": 101654.67,
+          "return_pct": 1.655,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 02:00:00",
+          "symbol": "BTC/USD",
+          "nav": 101495.68,
+          "return_pct": 1.496,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-21 02:00:00",
+          "symbol": "ETH/USD",
+          "nav": 101495.68,
+          "return_pct": 1.496,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 02:30:00",
+          "symbol": "BTC/USD",
+          "nav": 101483.39,
+          "return_pct": 1.483,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 02:30:00",
+          "symbol": "ETH/USD",
+          "nav": 101483.39,
+          "return_pct": 1.483,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 03:00:00",
+          "symbol": "BTC/USD",
+          "nav": 101483.39,
+          "return_pct": 1.483,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 03:00:00",
+          "symbol": "ETH/USD",
+          "nav": 101483.39,
+          "return_pct": 1.483,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 03:30:00",
+          "symbol": "BTC/USD",
+          "nav": 101483.39,
+          "return_pct": 1.483,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 03:30:00",
+          "symbol": "ETH/USD",
+          "nav": 101483.39,
+          "return_pct": 1.483,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 04:00:00",
+          "symbol": "BTC/USD",
+          "nav": 101576.92,
+          "return_pct": 1.577,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-21 04:00:00",
+          "symbol": "ETH/USD",
+          "nav": 101712.15,
+          "return_pct": 1.712,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-21 04:30:00",
+          "symbol": "BTC/USD",
+          "nav": 101699.81,
+          "return_pct": 1.7,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 04:30:00",
+          "symbol": "ETH/USD",
+          "nav": 101687.56,
+          "return_pct": 1.688,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 05:00:00",
+          "symbol": "BTC/USD",
+          "nav": 101777.83,
+          "return_pct": 1.778,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-21 05:00:00",
+          "symbol": "ETH/USD",
+          "nav": 101777.83,
+          "return_pct": 1.778,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 05:30:00",
+          "symbol": "BTC/USD",
+          "nav": 101765.46,
+          "return_pct": 1.765,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 05:30:00",
+          "symbol": "ETH/USD",
+          "nav": 101765.46,
+          "return_pct": 1.765,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 06:00:00",
+          "symbol": "BTC/USD",
+          "nav": 101862.11,
+          "return_pct": 1.862,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-21 06:00:00",
+          "symbol": "ETH/USD",
+          "nav": 101862.11,
+          "return_pct": 1.862,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 06:30:00",
+          "symbol": "BTC/USD",
+          "nav": 101849.69,
+          "return_pct": 1.85,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 06:30:00",
+          "symbol": "ETH/USD",
+          "nav": 101849.69,
+          "return_pct": 1.85,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 07:00:00",
+          "symbol": "BTC/USD",
+          "nav": 101849.69,
+          "return_pct": 1.85,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 07:00:00",
+          "symbol": "ETH/USD",
+          "nav": 101849.69,
+          "return_pct": 1.85,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 07:30:00",
+          "symbol": "BTC/USD",
+          "nav": 101849.69,
+          "return_pct": 1.85,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 07:30:00",
+          "symbol": "ETH/USD",
+          "nav": 101849.69,
+          "return_pct": 1.85,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 08:00:00",
+          "symbol": "BTC/USD",
+          "nav": 101849.69,
+          "return_pct": 1.85,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 08:00:00",
+          "symbol": "ETH/USD",
+          "nav": 101849.69,
+          "return_pct": 1.85,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 08:30:00",
+          "symbol": "BTC/USD",
+          "nav": 101849.69,
+          "return_pct": 1.85,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 08:30:00",
+          "symbol": "ETH/USD",
+          "nav": 101849.69,
+          "return_pct": 1.85,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 09:00:00",
+          "symbol": "BTC/USD",
+          "nav": 101849.69,
+          "return_pct": 1.85,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 09:00:00",
+          "symbol": "ETH/USD",
+          "nav": 101849.69,
+          "return_pct": 1.85,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 09:30:00",
+          "symbol": "BTC/USD",
+          "nav": 101849.69,
+          "return_pct": 1.85,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 09:30:00",
+          "symbol": "ETH/USD",
+          "nav": 101849.69,
+          "return_pct": 1.85,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 10:00:00",
+          "symbol": "BTC/USD",
+          "nav": 101849.69,
+          "return_pct": 1.85,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 10:00:00",
+          "symbol": "ETH/USD",
+          "nav": 101849.69,
+          "return_pct": 1.85,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 10:30:00",
+          "symbol": "BTC/USD",
+          "nav": 101849.69,
+          "return_pct": 1.85,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 10:30:00",
+          "symbol": "ETH/USD",
+          "nav": 101849.69,
+          "return_pct": 1.85,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 11:00:00",
+          "symbol": "BTC/USD",
+          "nav": 101945.21,
+          "return_pct": 1.945,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-21 11:00:00",
+          "symbol": "ETH/USD",
+          "nav": 101855.14,
+          "return_pct": 1.855,
+          "position": -1.0
+        },
+        {
+          "timestamp": "2026-11-21 11:30:00",
+          "symbol": "BTC/USD",
+          "nav": 101738.48,
+          "return_pct": 1.738,
+          "position": -1.0
+        },
+        {
+          "timestamp": "2026-11-21 11:30:00",
+          "symbol": "ETH/USD",
+          "nav": 101679.63,
+          "return_pct": 1.68,
+          "position": -1.0
+        },
+        {
+          "timestamp": "2026-11-21 12:00:00",
+          "symbol": "BTC/USD",
+          "nav": 101597.43,
+          "return_pct": 1.597,
+          "position": -1.0
+        },
+        {
+          "timestamp": "2026-11-21 12:00:00",
+          "symbol": "ETH/USD",
+          "nav": 101553.12,
+          "return_pct": 1.553,
+          "position": -1.0
+        },
+        {
+          "timestamp": "2026-11-21 12:30:00",
+          "symbol": "BTC/USD",
+          "nav": 101491.28,
+          "return_pct": 1.491,
+          "position": -1.0
+        },
+        {
+          "timestamp": "2026-11-21 12:30:00",
+          "symbol": "ETH/USD",
+          "nav": 101454.54,
+          "return_pct": 1.455,
+          "position": -1.0
+        },
+        {
+          "timestamp": "2026-11-21 13:00:00",
+          "symbol": "BTC/USD",
+          "nav": 101420.11,
+          "return_pct": 1.42,
+          "position": -1.0
+        },
+        {
+          "timestamp": "2026-11-21 13:00:00",
+          "symbol": "ETH/USD",
+          "nav": 101405.13,
+          "return_pct": 1.405,
+          "position": -1.0
+        },
+        {
+          "timestamp": "2026-11-21 13:30:00",
+          "symbol": "BTC/USD",
+          "nav": 101429.73,
+          "return_pct": 1.43,
+          "position": -1.0
+        },
+        {
+          "timestamp": "2026-11-21 13:30:00",
+          "symbol": "ETH/USD",
+          "nav": 101466.17,
+          "return_pct": 1.466,
+          "position": -1.0
+        },
+        {
+          "timestamp": "2026-11-21 14:00:00",
+          "symbol": "BTC/USD",
+          "nav": 101453.85,
+          "return_pct": 1.454,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 14:00:00",
+          "symbol": "ETH/USD",
+          "nav": 101416.83,
+          "return_pct": 1.417,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-21 14:30:00",
+          "symbol": "BTC/USD",
+          "nav": 101416.83,
+          "return_pct": 1.417,
+          "position": 0.0
+        }
+      ]
+    }
+  },
+  "portfolio_deepseek": {
+    "Jev_Standalone": {
+      "account_id": "Jev_Standalone",
+      "nav": 100975.43,
+      "cumulative_return_pct": 0.975,
+      "sharpe_ratio": 1.05,
+      "max_drawdown_pct": 3.909,
+      "total_trades": 222,
+      "turnover": 249.0,
+      "history_points": 1145,
+      "nav_history": [
+        {
+          "timestamp": "2026-11-20 15:30:00",
+          "symbol": "TSLA",
+          "nav": 101126.94,
+          "return_pct": 1.127,
+          "position": -1.0
+        },
+        {
+          "timestamp": "2026-11-20 16:00:00",
+          "symbol": "BTC/USD",
+          "nav": 101114.67,
+          "return_pct": 1.115,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-20 16:00:00",
+          "symbol": "ETH/USD",
+          "nav": 101059.59,
+          "return_pct": 1.06,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-20 16:00:00",
+          "symbol": "NVDA",
+          "nav": 101255.08,
+          "return_pct": 1.255,
+          "position": -1.0
+        },
+        {
+          "timestamp": "2026-11-20 16:00:00",
+          "symbol": "TSLA",
+          "nav": 101368.97,
+          "return_pct": 1.369,
+          "position": -1.0
+        },
+        {
+          "timestamp": "2026-11-20 16:30:00",
+          "symbol": "BTC/USD",
+          "nav": 101368.97,
+          "return_pct": 1.369,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-20 16:30:00",
+          "symbol": "ETH/USD",
+          "nav": 101286.2,
+          "return_pct": 1.286,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-20 16:30:00",
+          "symbol": "NVDA",
+          "nav": 101000.98,
+          "return_pct": 1.001,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-20 16:30:00",
+          "symbol": "TSLA",
+          "nav": 101087.84,
+          "return_pct": 1.088,
+          "position": -1.0
+        },
+        {
+          "timestamp": "2026-11-20 17:00:00",
+          "symbol": "BTC/USD",
+          "nav": 101042.69,
+          "return_pct": 1.043,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-20 17:00:00",
+          "symbol": "ETH/USD",
+          "nav": 101003.12,
+          "return_pct": 1.003,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-20 17:00:00",
+          "symbol": "NVDA",
+          "nav": 100826.1,
+          "return_pct": 0.826,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-20 17:00:00",
+          "symbol": "TSLA",
+          "nav": 100862.4,
+          "return_pct": 0.862,
+          "position": -1.0
+        },
+        {
+          "timestamp": "2026-11-20 17:30:00",
+          "symbol": "BTC/USD",
+          "nav": 100852.18,
+          "return_pct": 0.852,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-20 17:30:00",
+          "symbol": "ETH/USD",
+          "nav": 100827.84,
+          "return_pct": 0.828,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-20 17:30:00",
+          "symbol": "NVDA",
+          "nav": 100670.21,
+          "return_pct": 0.67,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-20 17:30:00",
+          "symbol": "TSLA",
+          "nav": 100700.56,
+          "return_pct": 0.701,
+          "position": -1.0
+        },
+        {
+          "timestamp": "2026-11-20 18:00:00",
+          "symbol": "BTC/USD",
+          "nav": 100704.79,
+          "return_pct": 0.705,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-20 18:00:00",
+          "symbol": "ETH/USD",
+          "nav": 100684.74,
+          "return_pct": 0.685,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-20 18:30:00",
+          "symbol": "BTC/USD",
+          "nav": 100721.59,
+          "return_pct": 0.722,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-20 18:30:00",
+          "symbol": "ETH/USD",
+          "nav": 100729.96,
+          "return_pct": 0.73,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-20 19:00:00",
+          "symbol": "BTC/USD",
+          "nav": 100770.63,
+          "return_pct": 0.771,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-20 19:00:00",
+          "symbol": "ETH/USD",
+          "nav": 100813.62,
+          "return_pct": 0.814,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-20 19:30:00",
+          "symbol": "BTC/USD",
+          "nav": 100801.34,
+          "return_pct": 0.801,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-20 19:30:00",
+          "symbol": "ETH/USD",
+          "nav": 100826.38,
+          "return_pct": 0.826,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-20 20:00:00",
+          "symbol": "BTC/USD",
+          "nav": 100826.38,
+          "return_pct": 0.826,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-20 20:00:00",
+          "symbol": "ETH/USD",
+          "nav": 100849.33,
+          "return_pct": 0.849,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-20 20:30:00",
+          "symbol": "BTC/USD",
+          "nav": 100866.36,
+          "return_pct": 0.866,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-20 20:30:00",
+          "symbol": "ETH/USD",
+          "nav": 100905.75,
+          "return_pct": 0.906,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-20 21:00:00",
+          "symbol": "BTC/USD",
+          "nav": 100921.47,
+          "return_pct": 0.921,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-20 21:00:00",
+          "symbol": "ETH/USD",
+          "nav": 100940.47,
+          "return_pct": 0.94,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-20 21:30:00",
+          "symbol": "BTC/USD",
+          "nav": 100928.18,
+          "return_pct": 0.928,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-20 21:30:00",
+          "symbol": "ETH/USD",
+          "nav": 100941.44,
+          "return_pct": 0.941,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-20 22:00:00",
+          "symbol": "BTC/USD",
+          "nav": 100941.44,
+          "return_pct": 0.941,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-20 22:00:00",
+          "symbol": "ETH/USD",
+          "nav": 100929.27,
+          "return_pct": 0.929,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-20 22:30:00",
+          "symbol": "BTC/USD",
+          "nav": 100929.27,
+          "return_pct": 0.929,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-20 22:30:00",
+          "symbol": "ETH/USD",
+          "nav": 100929.27,
+          "return_pct": 0.929,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-20 23:00:00",
+          "symbol": "BTC/USD",
+          "nav": 100929.27,
+          "return_pct": 0.929,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-20 23:00:00",
+          "symbol": "ETH/USD",
+          "nav": 100929.27,
+          "return_pct": 0.929,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-20 23:30:00",
+          "symbol": "BTC/USD",
+          "nav": 100929.27,
+          "return_pct": 0.929,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-20 23:30:00",
+          "symbol": "ETH/USD",
+          "nav": 100929.27,
+          "return_pct": 0.929,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 00:00:00",
+          "symbol": "BTC/USD",
+          "nav": 100929.27,
+          "return_pct": 0.929,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 00:00:00",
+          "symbol": "ETH/USD",
+          "nav": 100929.27,
+          "return_pct": 0.929,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 00:30:00",
+          "symbol": "BTC/USD",
+          "nav": 100929.27,
+          "return_pct": 0.929,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 00:30:00",
+          "symbol": "ETH/USD",
+          "nav": 100929.27,
+          "return_pct": 0.929,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 01:00:00",
+          "symbol": "BTC/USD",
+          "nav": 100929.27,
+          "return_pct": 0.929,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 01:00:00",
+          "symbol": "ETH/USD",
+          "nav": 100929.27,
+          "return_pct": 0.929,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 01:30:00",
+          "symbol": "BTC/USD",
+          "nav": 100750.11,
+          "return_pct": 0.75,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-21 01:30:00",
+          "symbol": "ETH/USD",
+          "nav": 100750.11,
+          "return_pct": 0.75,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 02:00:00",
+          "symbol": "BTC/USD",
+          "nav": 100605.65,
+          "return_pct": 0.606,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-21 02:00:00",
+          "symbol": "ETH/USD",
+          "nav": 100494.32,
+          "return_pct": 0.494,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-21 02:30:00",
+          "symbol": "BTC/USD",
+          "nav": 100482.2,
+          "return_pct": 0.482,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 02:30:00",
+          "symbol": "ETH/USD",
+          "nav": 100470.09,
+          "return_pct": 0.47,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 03:00:00",
+          "symbol": "BTC/USD",
+          "nav": 100470.09,
+          "return_pct": 0.47,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 03:00:00",
+          "symbol": "ETH/USD",
+          "nav": 100470.09,
+          "return_pct": 0.47,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 03:30:00",
+          "symbol": "BTC/USD",
+          "nav": 100470.09,
+          "return_pct": 0.47,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 03:30:00",
+          "symbol": "ETH/USD",
+          "nav": 100470.09,
+          "return_pct": 0.47,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 04:00:00",
+          "symbol": "BTC/USD",
+          "nav": 100562.3,
+          "return_pct": 0.562,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-21 04:00:00",
+          "symbol": "ETH/USD",
+          "nav": 100696.7,
+          "return_pct": 0.697,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-21 04:30:00",
+          "symbol": "BTC/USD",
+          "nav": 100776.13,
+          "return_pct": 0.776,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-21 04:30:00",
+          "symbol": "ETH/USD",
+          "nav": 100905.59,
+          "return_pct": 0.906,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-21 05:00:00",
+          "symbol": "BTC/USD",
+          "nav": 101007.12,
+          "return_pct": 1.007,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-21 05:00:00",
+          "symbol": "ETH/USD",
+          "nav": 100994.89,
+          "return_pct": 0.995,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 05:30:00",
+          "symbol": "BTC/USD",
+          "nav": 101116.39,
+          "return_pct": 1.116,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-21 05:30:00",
+          "symbol": "ETH/USD",
+          "nav": 101116.39,
+          "return_pct": 1.116,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 06:00:00",
+          "symbol": "BTC/USD",
+          "nav": 101224.91,
+          "return_pct": 1.225,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-21 06:00:00",
+          "symbol": "ETH/USD",
+          "nav": 101224.91,
+          "return_pct": 1.225,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 06:30:00",
+          "symbol": "BTC/USD",
+          "nav": 101212.54,
+          "return_pct": 1.213,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 06:30:00",
+          "symbol": "ETH/USD",
+          "nav": 101212.54,
+          "return_pct": 1.213,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 07:00:00",
+          "symbol": "BTC/USD",
+          "nav": 101212.54,
+          "return_pct": 1.213,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 07:00:00",
+          "symbol": "ETH/USD",
+          "nav": 101212.54,
+          "return_pct": 1.213,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 07:30:00",
+          "symbol": "BTC/USD",
+          "nav": 101212.54,
+          "return_pct": 1.213,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 07:30:00",
+          "symbol": "ETH/USD",
+          "nav": 101212.54,
+          "return_pct": 1.213,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 08:00:00",
+          "symbol": "BTC/USD",
+          "nav": 101212.54,
+          "return_pct": 1.213,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 08:00:00",
+          "symbol": "ETH/USD",
+          "nav": 101212.54,
+          "return_pct": 1.213,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 08:30:00",
+          "symbol": "BTC/USD",
+          "nav": 101212.54,
+          "return_pct": 1.213,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 08:30:00",
+          "symbol": "ETH/USD",
+          "nav": 101212.54,
+          "return_pct": 1.213,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 09:00:00",
+          "symbol": "BTC/USD",
+          "nav": 101212.54,
+          "return_pct": 1.213,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 09:00:00",
+          "symbol": "ETH/USD",
+          "nav": 101212.54,
+          "return_pct": 1.213,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 09:30:00",
+          "symbol": "BTC/USD",
+          "nav": 101212.54,
+          "return_pct": 1.213,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 09:30:00",
+          "symbol": "ETH/USD",
+          "nav": 101212.54,
+          "return_pct": 1.213,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 10:00:00",
+          "symbol": "BTC/USD",
+          "nav": 101212.54,
+          "return_pct": 1.213,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 10:00:00",
+          "symbol": "ETH/USD",
+          "nav": 101212.54,
+          "return_pct": 1.213,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 10:30:00",
+          "symbol": "BTC/USD",
+          "nav": 101328.63,
+          "return_pct": 1.329,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-21 10:30:00",
+          "symbol": "ETH/USD",
+          "nav": 101408.93,
+          "return_pct": 1.409,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-21 11:00:00",
+          "symbol": "BTC/USD",
+          "nav": 101516.93,
+          "return_pct": 1.517,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-21 11:00:00",
+          "symbol": "ETH/USD",
+          "nav": 101414.37,
+          "return_pct": 1.414,
+          "position": -1.0
+        },
+        {
+          "timestamp": "2026-11-21 11:30:00",
+          "symbol": "BTC/USD",
+          "nav": 101297.58,
+          "return_pct": 1.298,
+          "position": -1.0
+        },
+        {
+          "timestamp": "2026-11-21 11:30:00",
+          "symbol": "ETH/USD",
+          "nav": 101238.61,
+          "return_pct": 1.239,
+          "position": -1.0
+        },
+        {
+          "timestamp": "2026-11-21 12:00:00",
+          "symbol": "BTC/USD",
+          "nav": 101156.32,
+          "return_pct": 1.156,
+          "position": -1.0
+        },
+        {
+          "timestamp": "2026-11-21 12:00:00",
+          "symbol": "ETH/USD",
+          "nav": 101111.92,
+          "return_pct": 1.112,
+          "position": -1.0
+        },
+        {
+          "timestamp": "2026-11-21 12:30:00",
+          "symbol": "BTC/USD",
+          "nav": 101050.01,
+          "return_pct": 1.05,
+          "position": -1.0
+        },
+        {
+          "timestamp": "2026-11-21 12:30:00",
+          "symbol": "ETH/USD",
+          "nav": 101013.2,
+          "return_pct": 1.013,
+          "position": -1.0
+        },
+        {
+          "timestamp": "2026-11-21 13:00:00",
+          "symbol": "BTC/USD",
+          "nav": 100978.72,
+          "return_pct": 0.979,
+          "position": -1.0
+        },
+        {
+          "timestamp": "2026-11-21 13:00:00",
+          "symbol": "ETH/USD",
+          "nav": 100963.72,
+          "return_pct": 0.964,
+          "position": -1.0
+        },
+        {
+          "timestamp": "2026-11-21 13:30:00",
+          "symbol": "BTC/USD",
+          "nav": 100988.34,
+          "return_pct": 0.988,
+          "position": -1.0
+        },
+        {
+          "timestamp": "2026-11-21 13:30:00",
+          "symbol": "ETH/USD",
+          "nav": 101024.86,
+          "return_pct": 1.025,
+          "position": -1.0
+        },
+        {
+          "timestamp": "2026-11-21 14:00:00",
+          "symbol": "BTC/USD",
+          "nav": 101012.52,
+          "return_pct": 1.013,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 14:00:00",
+          "symbol": "ETH/USD",
+          "nav": 100975.43,
+          "return_pct": 0.975,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-21 14:30:00",
+          "symbol": "BTC/USD",
+          "nav": 100975.43,
+          "return_pct": 0.975,
+          "position": 0.0
+        }
+      ]
+    },
+    "Cascade_F0": {
+      "account_id": "Cascade_F0",
+      "nav": 101357.77,
+      "cumulative_return_pct": 1.358,
+      "sharpe_ratio": 1.625,
+      "max_drawdown_pct": 2.539,
+      "total_trades": 317,
+      "turnover": 359.0,
+      "history_points": 1145,
+      "nav_history": [
+        {
+          "timestamp": "2026-11-20 15:30:00",
+          "symbol": "TSLA",
+          "nav": 101622.78,
+          "return_pct": 1.623,
+          "position": -1.0
+        },
+        {
+          "timestamp": "2026-11-20 16:00:00",
+          "symbol": "BTC/USD",
+          "nav": 101598.31,
+          "return_pct": 1.598,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-20 16:00:00",
+          "symbol": "ETH/USD",
+          "nav": 101544.56,
+          "return_pct": 1.545,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-20 16:00:00",
+          "symbol": "NVDA",
+          "nav": 101313.65,
+          "return_pct": 1.314,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-20 16:00:00",
+          "symbol": "TSLA",
+          "nav": 101427.1,
+          "return_pct": 1.427,
+          "position": -1.0
+        },
+        {
+          "timestamp": "2026-11-20 16:30:00",
+          "symbol": "BTC/USD",
+          "nav": 101414.81,
+          "return_pct": 1.415,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-20 16:30:00",
+          "symbol": "ETH/USD",
+          "nav": 101334.04,
+          "return_pct": 1.334,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-20 16:30:00",
+          "symbol": "NVDA",
+          "nav": 101067.43,
+          "return_pct": 1.067,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-20 16:30:00",
+          "symbol": "TSLA",
+          "nav": 101153.96,
+          "return_pct": 1.154,
+          "position": -1.0
+        },
+        {
+          "timestamp": "2026-11-20 17:00:00",
+          "symbol": "BTC/USD",
+          "nav": 101108.77,
+          "return_pct": 1.109,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-20 17:00:00",
+          "symbol": "ETH/USD",
+          "nav": 101070.15,
+          "return_pct": 1.07,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-20 17:00:00",
+          "symbol": "NVDA",
+          "nav": 100888.06,
+          "return_pct": 0.888,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-20 17:00:00",
+          "symbol": "TSLA",
+          "nav": 100924.23,
+          "return_pct": 0.924,
+          "position": -1.0
+        },
+        {
+          "timestamp": "2026-11-20 17:30:00",
+          "symbol": "BTC/USD",
+          "nav": 100913.99,
+          "return_pct": 0.914,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-20 17:30:00",
+          "symbol": "ETH/USD",
+          "nav": 100890.24,
+          "return_pct": 0.89,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-20 17:30:00",
+          "symbol": "NVDA",
+          "nav": 100728.1,
+          "return_pct": 0.728,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-20 17:30:00",
+          "symbol": "TSLA",
+          "nav": 100758.34,
+          "return_pct": 0.758,
+          "position": -1.0
+        },
+        {
+          "timestamp": "2026-11-20 18:00:00",
+          "symbol": "BTC/USD",
+          "nav": 100762.56,
+          "return_pct": 0.763,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-20 18:00:00",
+          "symbol": "ETH/USD",
+          "nav": 100742.99,
+          "return_pct": 0.743,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-20 18:30:00",
+          "symbol": "BTC/USD",
+          "nav": 100779.88,
+          "return_pct": 0.78,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-20 18:30:00",
+          "symbol": "ETH/USD",
+          "nav": 100788.05,
+          "return_pct": 0.788,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-20 19:00:00",
+          "symbol": "BTC/USD",
+          "nav": 100828.76,
+          "return_pct": 0.829,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-20 19:00:00",
+          "symbol": "ETH/USD",
+          "nav": 100870.71,
+          "return_pct": 0.871,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-20 19:30:00",
+          "symbol": "BTC/USD",
+          "nav": 100888.57,
+          "return_pct": 0.889,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-20 19:30:00",
+          "symbol": "ETH/USD",
+          "nav": 100913.01,
+          "return_pct": 0.913,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-20 20:00:00",
+          "symbol": "BTC/USD",
+          "nav": 100900.71,
+          "return_pct": 0.901,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-20 20:00:00",
+          "symbol": "ETH/USD",
+          "nav": 100923.11,
+          "return_pct": 0.923,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-20 20:30:00",
+          "symbol": "BTC/USD",
+          "nav": 100940.17,
+          "return_pct": 0.94,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-20 20:30:00",
+          "symbol": "ETH/USD",
+          "nav": 100978.6,
+          "return_pct": 0.979,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-20 21:00:00",
+          "symbol": "BTC/USD",
+          "nav": 100994.35,
+          "return_pct": 0.994,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-20 21:00:00",
+          "symbol": "ETH/USD",
+          "nav": 101012.89,
+          "return_pct": 1.013,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-20 21:30:00",
+          "symbol": "BTC/USD",
+          "nav": 101000.58,
+          "return_pct": 1.001,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-20 21:30:00",
+          "symbol": "ETH/USD",
+          "nav": 101013.52,
+          "return_pct": 1.014,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-20 22:00:00",
+          "symbol": "BTC/USD",
+          "nav": 101013.52,
+          "return_pct": 1.014,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-20 22:00:00",
+          "symbol": "ETH/USD",
+          "nav": 101001.64,
+          "return_pct": 1.002,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-20 22:30:00",
+          "symbol": "BTC/USD",
+          "nav": 101001.64,
+          "return_pct": 1.002,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-20 22:30:00",
+          "symbol": "ETH/USD",
+          "nav": 101001.64,
+          "return_pct": 1.002,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-20 23:00:00",
+          "symbol": "BTC/USD",
+          "nav": 101001.64,
+          "return_pct": 1.002,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-20 23:00:00",
+          "symbol": "ETH/USD",
+          "nav": 101001.64,
+          "return_pct": 1.002,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-20 23:30:00",
+          "symbol": "BTC/USD",
+          "nav": 101001.64,
+          "return_pct": 1.002,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-20 23:30:00",
+          "symbol": "ETH/USD",
+          "nav": 101001.64,
+          "return_pct": 1.002,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 00:00:00",
+          "symbol": "BTC/USD",
+          "nav": 101001.64,
+          "return_pct": 1.002,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 00:00:00",
+          "symbol": "ETH/USD",
+          "nav": 101001.64,
+          "return_pct": 1.002,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 00:30:00",
+          "symbol": "BTC/USD",
+          "nav": 101001.64,
+          "return_pct": 1.002,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 00:30:00",
+          "symbol": "ETH/USD",
+          "nav": 101001.64,
+          "return_pct": 1.002,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 01:00:00",
+          "symbol": "BTC/USD",
+          "nav": 101001.64,
+          "return_pct": 1.002,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 01:00:00",
+          "symbol": "ETH/USD",
+          "nav": 101001.64,
+          "return_pct": 1.002,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 01:30:00",
+          "symbol": "BTC/USD",
+          "nav": 100822.19,
+          "return_pct": 0.822,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-21 01:30:00",
+          "symbol": "ETH/USD",
+          "nav": 100822.19,
+          "return_pct": 0.822,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 02:00:00",
+          "symbol": "BTC/USD",
+          "nav": 100677.49,
+          "return_pct": 0.677,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-21 02:00:00",
+          "symbol": "ETH/USD",
+          "nav": 100677.49,
+          "return_pct": 0.677,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 02:30:00",
+          "symbol": "BTC/USD",
+          "nav": 100665.35,
+          "return_pct": 0.665,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 02:30:00",
+          "symbol": "ETH/USD",
+          "nav": 100665.35,
+          "return_pct": 0.665,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 03:00:00",
+          "symbol": "BTC/USD",
+          "nav": 100665.35,
+          "return_pct": 0.665,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 03:00:00",
+          "symbol": "ETH/USD",
+          "nav": 100665.35,
+          "return_pct": 0.665,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 03:30:00",
+          "symbol": "BTC/USD",
+          "nav": 100719.54,
+          "return_pct": 0.72,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-21 03:30:00",
+          "symbol": "ETH/USD",
+          "nav": 100816.26,
+          "return_pct": 0.816,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-21 04:00:00",
+          "symbol": "BTC/USD",
+          "nav": 100921.0,
+          "return_pct": 0.921,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-21 04:00:00",
+          "symbol": "ETH/USD",
+          "nav": 101065.29,
+          "return_pct": 1.065,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-21 04:30:00",
+          "symbol": "BTC/USD",
+          "nav": 101145.07,
+          "return_pct": 1.145,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-21 04:30:00",
+          "symbol": "ETH/USD",
+          "nav": 101272.64,
+          "return_pct": 1.273,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-21 05:00:00",
+          "symbol": "BTC/USD",
+          "nav": 101374.62,
+          "return_pct": 1.375,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-21 05:00:00",
+          "symbol": "ETH/USD",
+          "nav": 101362.56,
+          "return_pct": 1.363,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 05:30:00",
+          "symbol": "BTC/USD",
+          "nav": 101484.59,
+          "return_pct": 1.485,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-21 05:30:00",
+          "symbol": "ETH/USD",
+          "nav": 101620.33,
+          "return_pct": 1.62,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-21 06:00:00",
+          "symbol": "BTC/USD",
+          "nav": 101729.34,
+          "return_pct": 1.729,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-21 06:00:00",
+          "symbol": "ETH/USD",
+          "nav": 101717.22,
+          "return_pct": 1.717,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 06:30:00",
+          "symbol": "BTC/USD",
+          "nav": 101704.79,
+          "return_pct": 1.705,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 06:30:00",
+          "symbol": "ETH/USD",
+          "nav": 101704.79,
+          "return_pct": 1.705,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 07:00:00",
+          "symbol": "BTC/USD",
+          "nav": 101704.79,
+          "return_pct": 1.705,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 07:00:00",
+          "symbol": "ETH/USD",
+          "nav": 101704.79,
+          "return_pct": 1.705,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 07:30:00",
+          "symbol": "BTC/USD",
+          "nav": 101704.79,
+          "return_pct": 1.705,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 07:30:00",
+          "symbol": "ETH/USD",
+          "nav": 101704.79,
+          "return_pct": 1.705,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 08:00:00",
+          "symbol": "BTC/USD",
+          "nav": 101704.79,
+          "return_pct": 1.705,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 08:00:00",
+          "symbol": "ETH/USD",
+          "nav": 101704.79,
+          "return_pct": 1.705,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 08:30:00",
+          "symbol": "BTC/USD",
+          "nav": 101704.79,
+          "return_pct": 1.705,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 08:30:00",
+          "symbol": "ETH/USD",
+          "nav": 101704.79,
+          "return_pct": 1.705,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 09:00:00",
+          "symbol": "BTC/USD",
+          "nav": 101704.79,
+          "return_pct": 1.705,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 09:00:00",
+          "symbol": "ETH/USD",
+          "nav": 101704.79,
+          "return_pct": 1.705,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 09:30:00",
+          "symbol": "BTC/USD",
+          "nav": 101704.79,
+          "return_pct": 1.705,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 09:30:00",
+          "symbol": "ETH/USD",
+          "nav": 101704.79,
+          "return_pct": 1.705,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 10:00:00",
+          "symbol": "BTC/USD",
+          "nav": 101704.79,
+          "return_pct": 1.705,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 10:00:00",
+          "symbol": "ETH/USD",
+          "nav": 101704.79,
+          "return_pct": 1.705,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 10:30:00",
+          "symbol": "BTC/USD",
+          "nav": 101704.79,
+          "return_pct": 1.705,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 10:30:00",
+          "symbol": "ETH/USD",
+          "nav": 101704.79,
+          "return_pct": 1.705,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 11:00:00",
+          "symbol": "BTC/USD",
+          "nav": 101800.34,
+          "return_pct": 1.8,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-21 11:00:00",
+          "symbol": "ETH/USD",
+          "nav": 101711.21,
+          "return_pct": 1.711,
+          "position": -1.0
+        },
+        {
+          "timestamp": "2026-11-21 11:30:00",
+          "symbol": "BTC/USD",
+          "nav": 101594.51,
+          "return_pct": 1.595,
+          "position": -1.0
+        },
+        {
+          "timestamp": "2026-11-21 11:30:00",
+          "symbol": "ETH/USD",
+          "nav": 101582.44,
+          "return_pct": 1.582,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 12:00:00",
+          "symbol": "BTC/USD",
+          "nav": 101500.21,
+          "return_pct": 1.5,
+          "position": -1.0
+        },
+        {
+          "timestamp": "2026-11-21 12:00:00",
+          "symbol": "ETH/USD",
+          "nav": 101444.2,
+          "return_pct": 1.444,
+          "position": -1.0
+        },
+        {
+          "timestamp": "2026-11-21 12:30:00",
+          "symbol": "BTC/USD",
+          "nav": 101431.84,
+          "return_pct": 1.432,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 12:30:00",
+          "symbol": "ETH/USD",
+          "nav": 101419.8,
+          "return_pct": 1.42,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 13:00:00",
+          "symbol": "BTC/USD",
+          "nav": 101372.93,
+          "return_pct": 1.373,
+          "position": -1.0
+        },
+        {
+          "timestamp": "2026-11-21 13:00:00",
+          "symbol": "ETH/USD",
+          "nav": 101346.04,
+          "return_pct": 1.346,
+          "position": -1.0
+        },
+        {
+          "timestamp": "2026-11-21 13:30:00",
+          "symbol": "BTC/USD",
+          "nav": 101370.68,
+          "return_pct": 1.371,
+          "position": -1.0
+        },
+        {
+          "timestamp": "2026-11-21 13:30:00",
+          "symbol": "ETH/USD",
+          "nav": 101406.82,
+          "return_pct": 1.407,
+          "position": -1.0
+        },
+        {
+          "timestamp": "2026-11-21 14:00:00",
+          "symbol": "BTC/USD",
+          "nav": 101394.48,
+          "return_pct": 1.394,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 14:00:00",
+          "symbol": "ETH/USD",
+          "nav": 101357.77,
+          "return_pct": 1.358,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-21 14:30:00",
+          "symbol": "BTC/USD",
+          "nav": 101357.77,
+          "return_pct": 1.358,
+          "position": 0.0
+        }
+      ]
+    },
+    "Cascade_F1": {
+      "account_id": "Cascade_F1",
+      "nav": 102929.04,
+      "cumulative_return_pct": 2.929,
+      "sharpe_ratio": 3.139,
+      "max_drawdown_pct": 2.062,
+      "total_trades": 316,
+      "turnover": 373.0,
+      "history_points": 1145,
+      "nav_history": [
+        {
+          "timestamp": "2026-11-20 15:30:00",
+          "symbol": "TSLA",
+          "nav": 102792.36,
+          "return_pct": 2.792,
+          "position": -1.0
+        },
+        {
+          "timestamp": "2026-11-20 16:00:00",
+          "symbol": "BTC/USD",
+          "nav": 102767.83,
+          "return_pct": 2.768,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-20 16:00:00",
+          "symbol": "ETH/USD",
+          "nav": 102713.4,
+          "return_pct": 2.713,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-20 16:00:00",
+          "symbol": "NVDA",
+          "nav": 102477.64,
+          "return_pct": 2.478,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-20 16:00:00",
+          "symbol": "TSLA",
+          "nav": 102592.16,
+          "return_pct": 2.592,
+          "position": -1.0
+        },
+        {
+          "timestamp": "2026-11-20 16:30:00",
+          "symbol": "BTC/USD",
+          "nav": 102579.84,
+          "return_pct": 2.58,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-20 16:30:00",
+          "symbol": "ETH/USD",
+          "nav": 102498.04,
+          "return_pct": 2.498,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-20 16:30:00",
+          "symbol": "NVDA",
+          "nav": 102743.19,
+          "return_pct": 2.743,
+          "position": -1.0
+        },
+        {
+          "timestamp": "2026-11-20 16:30:00",
+          "symbol": "TSLA",
+          "nav": 102830.53,
+          "return_pct": 2.831,
+          "position": -1.0
+        },
+        {
+          "timestamp": "2026-11-20 17:00:00",
+          "symbol": "BTC/USD",
+          "nav": 102785.24,
+          "return_pct": 2.785,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-20 17:00:00",
+          "symbol": "ETH/USD",
+          "nav": 102746.13,
+          "return_pct": 2.746,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-20 17:00:00",
+          "symbol": "NVDA",
+          "nav": 102529.33,
+          "return_pct": 2.529,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-20 17:00:00",
+          "symbol": "TSLA",
+          "nav": 102565.84,
+          "return_pct": 2.566,
+          "position": -1.0
+        },
+        {
+          "timestamp": "2026-11-20 17:30:00",
+          "symbol": "BTC/USD",
+          "nav": 102555.58,
+          "return_pct": 2.556,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-20 17:30:00",
+          "symbol": "ETH/USD",
+          "nav": 102531.52,
+          "return_pct": 2.532,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-20 17:30:00",
+          "symbol": "NVDA",
+          "nav": 102362.96,
+          "return_pct": 2.363,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-20 17:30:00",
+          "symbol": "TSLA",
+          "nav": 102393.48,
+          "return_pct": 2.393,
+          "position": -1.0
+        },
+        {
+          "timestamp": "2026-11-20 18:00:00",
+          "symbol": "BTC/USD",
+          "nav": 102397.71,
+          "return_pct": 2.398,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-20 18:00:00",
+          "symbol": "ETH/USD",
+          "nav": 102377.89,
+          "return_pct": 2.378,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-20 18:30:00",
+          "symbol": "BTC/USD",
+          "nav": 102414.86,
+          "return_pct": 2.415,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-20 18:30:00",
+          "symbol": "ETH/USD",
+          "nav": 102423.14,
+          "return_pct": 2.423,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-20 19:00:00",
+          "symbol": "BTC/USD",
+          "nav": 102463.95,
+          "return_pct": 2.464,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-20 19:00:00",
+          "symbol": "ETH/USD",
+          "nav": 102506.43,
+          "return_pct": 2.506,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-20 19:30:00",
+          "symbol": "BTC/USD",
+          "nav": 102494.11,
+          "return_pct": 2.494,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-20 19:30:00",
+          "symbol": "ETH/USD",
+          "nav": 102518.86,
+          "return_pct": 2.519,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-20 20:00:00",
+          "symbol": "BTC/USD",
+          "nav": 102518.86,
+          "return_pct": 2.519,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-20 20:00:00",
+          "symbol": "ETH/USD",
+          "nav": 102541.54,
+          "return_pct": 2.542,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-20 20:30:00",
+          "symbol": "BTC/USD",
+          "nav": 102558.63,
+          "return_pct": 2.559,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-20 20:30:00",
+          "symbol": "ETH/USD",
+          "nav": 102597.56,
+          "return_pct": 2.598,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-20 21:00:00",
+          "symbol": "BTC/USD",
+          "nav": 102613.33,
+          "return_pct": 2.613,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-20 21:00:00",
+          "symbol": "ETH/USD",
+          "nav": 102632.11,
+          "return_pct": 2.632,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-20 21:30:00",
+          "symbol": "BTC/USD",
+          "nav": 102619.77,
+          "return_pct": 2.62,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-20 21:30:00",
+          "symbol": "ETH/USD",
+          "nav": 102632.88,
+          "return_pct": 2.633,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-20 22:00:00",
+          "symbol": "BTC/USD",
+          "nav": 102632.88,
+          "return_pct": 2.633,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-20 22:00:00",
+          "symbol": "ETH/USD",
+          "nav": 102620.85,
+          "return_pct": 2.621,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-20 22:30:00",
+          "symbol": "BTC/USD",
+          "nav": 102620.85,
+          "return_pct": 2.621,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-20 22:30:00",
+          "symbol": "ETH/USD",
+          "nav": 102620.85,
+          "return_pct": 2.621,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-20 23:00:00",
+          "symbol": "BTC/USD",
+          "nav": 102620.85,
+          "return_pct": 2.621,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-20 23:00:00",
+          "symbol": "ETH/USD",
+          "nav": 102620.85,
+          "return_pct": 2.621,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-20 23:30:00",
+          "symbol": "BTC/USD",
+          "nav": 102620.85,
+          "return_pct": 2.621,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-20 23:30:00",
+          "symbol": "ETH/USD",
+          "nav": 102620.85,
+          "return_pct": 2.621,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 00:00:00",
+          "symbol": "BTC/USD",
+          "nav": 102620.85,
+          "return_pct": 2.621,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 00:00:00",
+          "symbol": "ETH/USD",
+          "nav": 102620.85,
+          "return_pct": 2.621,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 00:30:00",
+          "symbol": "BTC/USD",
+          "nav": 102620.85,
+          "return_pct": 2.621,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 00:30:00",
+          "symbol": "ETH/USD",
+          "nav": 102620.85,
+          "return_pct": 2.621,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 01:00:00",
+          "symbol": "BTC/USD",
+          "nav": 102620.85,
+          "return_pct": 2.621,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 01:00:00",
+          "symbol": "ETH/USD",
+          "nav": 102620.85,
+          "return_pct": 2.621,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 01:30:00",
+          "symbol": "BTC/USD",
+          "nav": 102441.11,
+          "return_pct": 2.441,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-21 01:30:00",
+          "symbol": "ETH/USD",
+          "nav": 102441.11,
+          "return_pct": 2.441,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 02:00:00",
+          "symbol": "BTC/USD",
+          "nav": 102296.18,
+          "return_pct": 2.296,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-21 02:00:00",
+          "symbol": "ETH/USD",
+          "nav": 102296.18,
+          "return_pct": 2.296,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 02:30:00",
+          "symbol": "BTC/USD",
+          "nav": 102284.02,
+          "return_pct": 2.284,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 02:30:00",
+          "symbol": "ETH/USD",
+          "nav": 102284.02,
+          "return_pct": 2.284,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 03:00:00",
+          "symbol": "BTC/USD",
+          "nav": 102284.02,
+          "return_pct": 2.284,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 03:00:00",
+          "symbol": "ETH/USD",
+          "nav": 102284.02,
+          "return_pct": 2.284,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 03:30:00",
+          "symbol": "BTC/USD",
+          "nav": 102338.3,
+          "return_pct": 2.338,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-21 03:30:00",
+          "symbol": "ETH/USD",
+          "nav": 102338.3,
+          "return_pct": 2.338,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 04:00:00",
+          "symbol": "BTC/USD",
+          "nav": 102443.21,
+          "return_pct": 2.443,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-21 04:00:00",
+          "symbol": "ETH/USD",
+          "nav": 102576.72,
+          "return_pct": 2.577,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-21 04:30:00",
+          "symbol": "BTC/USD",
+          "nav": 102656.62,
+          "return_pct": 2.657,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-21 04:30:00",
+          "symbol": "ETH/USD",
+          "nav": 102785.22,
+          "return_pct": 2.785,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-21 05:00:00",
+          "symbol": "BTC/USD",
+          "nav": 102887.36,
+          "return_pct": 2.887,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-21 05:00:00",
+          "symbol": "ETH/USD",
+          "nav": 102875.21,
+          "return_pct": 2.875,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 05:30:00",
+          "symbol": "BTC/USD",
+          "nav": 102997.44,
+          "return_pct": 2.997,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-21 05:30:00",
+          "symbol": "ETH/USD",
+          "nav": 102997.44,
+          "return_pct": 2.997,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 06:00:00",
+          "symbol": "BTC/USD",
+          "nav": 103106.62,
+          "return_pct": 3.107,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-21 06:00:00",
+          "symbol": "ETH/USD",
+          "nav": 103106.62,
+          "return_pct": 3.107,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 06:30:00",
+          "symbol": "BTC/USD",
+          "nav": 103094.17,
+          "return_pct": 3.094,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 06:30:00",
+          "symbol": "ETH/USD",
+          "nav": 103094.17,
+          "return_pct": 3.094,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 07:00:00",
+          "symbol": "BTC/USD",
+          "nav": 103094.17,
+          "return_pct": 3.094,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 07:00:00",
+          "symbol": "ETH/USD",
+          "nav": 103094.17,
+          "return_pct": 3.094,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 07:30:00",
+          "symbol": "BTC/USD",
+          "nav": 103094.17,
+          "return_pct": 3.094,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 07:30:00",
+          "symbol": "ETH/USD",
+          "nav": 103094.17,
+          "return_pct": 3.094,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 08:00:00",
+          "symbol": "BTC/USD",
+          "nav": 103094.17,
+          "return_pct": 3.094,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 08:00:00",
+          "symbol": "ETH/USD",
+          "nav": 103094.17,
+          "return_pct": 3.094,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 08:30:00",
+          "symbol": "BTC/USD",
+          "nav": 103094.17,
+          "return_pct": 3.094,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 08:30:00",
+          "symbol": "ETH/USD",
+          "nav": 103094.17,
+          "return_pct": 3.094,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 09:00:00",
+          "symbol": "BTC/USD",
+          "nav": 103094.17,
+          "return_pct": 3.094,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 09:00:00",
+          "symbol": "ETH/USD",
+          "nav": 103094.17,
+          "return_pct": 3.094,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 09:30:00",
+          "symbol": "BTC/USD",
+          "nav": 103094.17,
+          "return_pct": 3.094,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 09:30:00",
+          "symbol": "ETH/USD",
+          "nav": 103094.17,
+          "return_pct": 3.094,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 10:00:00",
+          "symbol": "BTC/USD",
+          "nav": 103094.17,
+          "return_pct": 3.094,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 10:00:00",
+          "symbol": "ETH/USD",
+          "nav": 103094.17,
+          "return_pct": 3.094,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 10:30:00",
+          "symbol": "BTC/USD",
+          "nav": 103094.17,
+          "return_pct": 3.094,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 10:30:00",
+          "symbol": "ETH/USD",
+          "nav": 103094.17,
+          "return_pct": 3.094,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 11:00:00",
+          "symbol": "BTC/USD",
+          "nav": 103189.88,
+          "return_pct": 3.19,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-21 11:00:00",
+          "symbol": "ETH/USD",
+          "nav": 103100.48,
+          "return_pct": 3.1,
+          "position": -1.0
+        },
+        {
+          "timestamp": "2026-11-21 11:30:00",
+          "symbol": "BTC/USD",
+          "nav": 103192.4,
+          "return_pct": 3.192,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-21 11:30:00",
+          "symbol": "ETH/USD",
+          "nav": 103180.3,
+          "return_pct": 3.18,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 12:00:00",
+          "symbol": "BTC/USD",
+          "nav": 103072.18,
+          "return_pct": 3.072,
+          "position": -1.0
+        },
+        {
+          "timestamp": "2026-11-21 12:00:00",
+          "symbol": "ETH/USD",
+          "nav": 103016.01,
+          "return_pct": 3.016,
+          "position": -1.0
+        },
+        {
+          "timestamp": "2026-11-21 12:30:00",
+          "symbol": "BTC/USD",
+          "nav": 103003.54,
+          "return_pct": 3.004,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 12:30:00",
+          "symbol": "ETH/USD",
+          "nav": 102991.46,
+          "return_pct": 2.991,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 13:00:00",
+          "symbol": "BTC/USD",
+          "nav": 102944.17,
+          "return_pct": 2.944,
+          "position": -1.0
+        },
+        {
+          "timestamp": "2026-11-21 13:00:00",
+          "symbol": "ETH/USD",
+          "nav": 102917.2,
+          "return_pct": 2.917,
+          "position": -1.0
+        },
+        {
+          "timestamp": "2026-11-21 13:30:00",
+          "symbol": "BTC/USD",
+          "nav": 102942.07,
+          "return_pct": 2.942,
+          "position": -1.0
+        },
+        {
+          "timestamp": "2026-11-21 13:30:00",
+          "symbol": "ETH/USD",
+          "nav": 102978.31,
+          "return_pct": 2.978,
+          "position": -1.0
+        },
+        {
+          "timestamp": "2026-11-21 14:00:00",
+          "symbol": "BTC/USD",
+          "nav": 102965.85,
+          "return_pct": 2.966,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 14:00:00",
+          "symbol": "ETH/USD",
+          "nav": 102929.04,
+          "return_pct": 2.929,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-21 14:30:00",
+          "symbol": "BTC/USD",
+          "nav": 102929.04,
+          "return_pct": 2.929,
+          "position": 0.0
+        }
+      ]
+    },
+    "Cascade_C0": {
+      "account_id": "Cascade_C0",
+      "nav": 102328.35,
+      "cumulative_return_pct": 2.328,
+      "sharpe_ratio": 2.37,
+      "max_drawdown_pct": 2.776,
+      "total_trades": 293,
+      "turnover": 341.0,
+      "history_points": 1145,
+      "nav_history": [
+        {
+          "timestamp": "2026-11-20 15:30:00",
+          "symbol": "TSLA",
+          "nav": 102884.41,
+          "return_pct": 2.884,
+          "position": -1.0
+        },
+        {
+          "timestamp": "2026-11-20 16:00:00",
+          "symbol": "BTC/USD",
+          "nav": 102871.99,
+          "return_pct": 2.872,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-20 16:00:00",
+          "symbol": "ETH/USD",
+          "nav": 102817.3,
+          "return_pct": 2.817,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-20 16:00:00",
+          "symbol": "NVDA",
+          "nav": 102584.73,
+          "return_pct": 2.585,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-20 16:00:00",
+          "symbol": "TSLA",
+          "nav": 102699.91,
+          "return_pct": 2.7,
+          "position": -1.0
+        },
+        {
+          "timestamp": "2026-11-20 16:30:00",
+          "symbol": "BTC/USD",
+          "nav": 102699.91,
+          "return_pct": 2.7,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-20 16:30:00",
+          "symbol": "ETH/USD",
+          "nav": 102617.73,
+          "return_pct": 2.618,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-20 16:30:00",
+          "symbol": "NVDA",
+          "nav": 102349.2,
+          "return_pct": 2.349,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-20 16:30:00",
+          "symbol": "TSLA",
+          "nav": 102437.06,
+          "return_pct": 2.437,
+          "position": -1.0
+        },
+        {
+          "timestamp": "2026-11-20 17:00:00",
+          "symbol": "BTC/USD",
+          "nav": 102391.36,
+          "return_pct": 2.391,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-20 17:00:00",
+          "symbol": "ETH/USD",
+          "nav": 102352.07,
+          "return_pct": 2.352,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-20 17:00:00",
+          "symbol": "NVDA",
+          "nav": 102168.67,
+          "return_pct": 2.169,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-20 17:00:00",
+          "symbol": "TSLA",
+          "nav": 102205.39,
+          "return_pct": 2.205,
+          "position": -1.0
+        },
+        {
+          "timestamp": "2026-11-20 17:30:00",
+          "symbol": "BTC/USD",
+          "nav": 102195.04,
+          "return_pct": 2.195,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-20 17:30:00",
+          "symbol": "ETH/USD",
+          "nav": 102170.87,
+          "return_pct": 2.171,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-20 17:30:00",
+          "symbol": "NVDA",
+          "nav": 102007.56,
+          "return_pct": 2.008,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-20 17:30:00",
+          "symbol": "TSLA",
+          "nav": 102038.26,
+          "return_pct": 2.038,
+          "position": -1.0
+        },
+        {
+          "timestamp": "2026-11-20 18:00:00",
+          "symbol": "BTC/USD",
+          "nav": 102042.53,
+          "return_pct": 2.043,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-20 18:00:00",
+          "symbol": "ETH/USD",
+          "nav": 102022.62,
+          "return_pct": 2.023,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-20 18:30:00",
+          "symbol": "BTC/USD",
+          "nav": 102059.92,
+          "return_pct": 2.06,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-20 18:30:00",
+          "symbol": "ETH/USD",
+          "nav": 102068.23,
+          "return_pct": 2.068,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-20 19:00:00",
+          "symbol": "BTC/USD",
+          "nav": 102109.4,
+          "return_pct": 2.109,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-20 19:00:00",
+          "symbol": "ETH/USD",
+          "nav": 102152.08,
+          "return_pct": 2.152,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-20 19:30:00",
+          "symbol": "BTC/USD",
+          "nav": 102170.14,
+          "return_pct": 2.17,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-20 19:30:00",
+          "symbol": "ETH/USD",
+          "nav": 102195.0,
+          "return_pct": 2.195,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-20 20:00:00",
+          "symbol": "BTC/USD",
+          "nav": 102182.56,
+          "return_pct": 2.183,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-20 20:00:00",
+          "symbol": "ETH/USD",
+          "nav": 102205.35,
+          "return_pct": 2.205,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-20 20:30:00",
+          "symbol": "BTC/USD",
+          "nav": 102222.6,
+          "return_pct": 2.223,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-20 20:30:00",
+          "symbol": "ETH/USD",
+          "nav": 102261.71,
+          "return_pct": 2.262,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-20 21:00:00",
+          "symbol": "BTC/USD",
+          "nav": 102277.63,
+          "return_pct": 2.278,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-20 21:00:00",
+          "symbol": "ETH/USD",
+          "nav": 102296.5,
+          "return_pct": 2.296,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-20 21:30:00",
+          "symbol": "BTC/USD",
+          "nav": 102297.43,
+          "return_pct": 2.297,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-20 21:30:00",
+          "symbol": "ETH/USD",
+          "nav": 102310.6,
+          "return_pct": 2.311,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-20 22:00:00",
+          "symbol": "BTC/USD",
+          "nav": 102298.15,
+          "return_pct": 2.298,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-20 22:00:00",
+          "symbol": "ETH/USD",
+          "nav": 102286.06,
+          "return_pct": 2.286,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-20 22:30:00",
+          "symbol": "BTC/USD",
+          "nav": 102286.06,
+          "return_pct": 2.286,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-20 22:30:00",
+          "symbol": "ETH/USD",
+          "nav": 102286.06,
+          "return_pct": 2.286,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-20 23:00:00",
+          "symbol": "BTC/USD",
+          "nav": 102286.06,
+          "return_pct": 2.286,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-20 23:00:00",
+          "symbol": "ETH/USD",
+          "nav": 102286.06,
+          "return_pct": 2.286,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-20 23:30:00",
+          "symbol": "BTC/USD",
+          "nav": 102286.06,
+          "return_pct": 2.286,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-20 23:30:00",
+          "symbol": "ETH/USD",
+          "nav": 102286.06,
+          "return_pct": 2.286,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 00:00:00",
+          "symbol": "BTC/USD",
+          "nav": 102286.06,
+          "return_pct": 2.286,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 00:00:00",
+          "symbol": "ETH/USD",
+          "nav": 102286.06,
+          "return_pct": 2.286,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 00:30:00",
+          "symbol": "BTC/USD",
+          "nav": 102286.06,
+          "return_pct": 2.286,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 00:30:00",
+          "symbol": "ETH/USD",
+          "nav": 102286.06,
+          "return_pct": 2.286,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 01:00:00",
+          "symbol": "BTC/USD",
+          "nav": 102286.06,
+          "return_pct": 2.286,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 01:00:00",
+          "symbol": "ETH/USD",
+          "nav": 102286.06,
+          "return_pct": 2.286,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 01:30:00",
+          "symbol": "BTC/USD",
+          "nav": 102104.6,
+          "return_pct": 2.105,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-21 01:30:00",
+          "symbol": "ETH/USD",
+          "nav": 102104.6,
+          "return_pct": 2.105,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 02:00:00",
+          "symbol": "BTC/USD",
+          "nav": 101958.28,
+          "return_pct": 1.958,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-21 02:00:00",
+          "symbol": "ETH/USD",
+          "nav": 101958.28,
+          "return_pct": 1.958,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 02:30:00",
+          "symbol": "BTC/USD",
+          "nav": 101946.0,
+          "return_pct": 1.946,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 02:30:00",
+          "symbol": "ETH/USD",
+          "nav": 101946.0,
+          "return_pct": 1.946,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 03:00:00",
+          "symbol": "BTC/USD",
+          "nav": 101946.0,
+          "return_pct": 1.946,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 03:00:00",
+          "symbol": "ETH/USD",
+          "nav": 101946.0,
+          "return_pct": 1.946,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 03:30:00",
+          "symbol": "BTC/USD",
+          "nav": 102000.8,
+          "return_pct": 2.001,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-21 03:30:00",
+          "symbol": "ETH/USD",
+          "nav": 102000.8,
+          "return_pct": 2.001,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 04:00:00",
+          "symbol": "BTC/USD",
+          "nav": 102106.71,
+          "return_pct": 2.107,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-21 04:00:00",
+          "symbol": "ETH/USD",
+          "nav": 102240.84,
+          "return_pct": 2.241,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-21 04:30:00",
+          "symbol": "BTC/USD",
+          "nav": 102321.52,
+          "return_pct": 2.322,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-21 04:30:00",
+          "symbol": "ETH/USD",
+          "nav": 102450.71,
+          "return_pct": 2.451,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-21 05:00:00",
+          "symbol": "BTC/USD",
+          "nav": 102553.83,
+          "return_pct": 2.554,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-21 05:00:00",
+          "symbol": "ETH/USD",
+          "nav": 102541.62,
+          "return_pct": 2.542,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 05:30:00",
+          "symbol": "BTC/USD",
+          "nav": 102665.02,
+          "return_pct": 2.665,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-21 05:30:00",
+          "symbol": "ETH/USD",
+          "nav": 102665.02,
+          "return_pct": 2.665,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 06:00:00",
+          "symbol": "BTC/USD",
+          "nav": 102775.25,
+          "return_pct": 2.775,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-21 06:00:00",
+          "symbol": "ETH/USD",
+          "nav": 102775.25,
+          "return_pct": 2.775,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 06:30:00",
+          "symbol": "BTC/USD",
+          "nav": 102762.68,
+          "return_pct": 2.763,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 06:30:00",
+          "symbol": "ETH/USD",
+          "nav": 102762.68,
+          "return_pct": 2.763,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 07:00:00",
+          "symbol": "BTC/USD",
+          "nav": 102762.68,
+          "return_pct": 2.763,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 07:00:00",
+          "symbol": "ETH/USD",
+          "nav": 102762.68,
+          "return_pct": 2.763,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 07:30:00",
+          "symbol": "BTC/USD",
+          "nav": 102762.68,
+          "return_pct": 2.763,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 07:30:00",
+          "symbol": "ETH/USD",
+          "nav": 102762.68,
+          "return_pct": 2.763,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 08:00:00",
+          "symbol": "BTC/USD",
+          "nav": 102762.68,
+          "return_pct": 2.763,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 08:00:00",
+          "symbol": "ETH/USD",
+          "nav": 102762.68,
+          "return_pct": 2.763,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 08:30:00",
+          "symbol": "BTC/USD",
+          "nav": 102762.68,
+          "return_pct": 2.763,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 08:30:00",
+          "symbol": "ETH/USD",
+          "nav": 102762.68,
+          "return_pct": 2.763,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 09:00:00",
+          "symbol": "BTC/USD",
+          "nav": 102762.68,
+          "return_pct": 2.763,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 09:00:00",
+          "symbol": "ETH/USD",
+          "nav": 102762.68,
+          "return_pct": 2.763,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 09:30:00",
+          "symbol": "BTC/USD",
+          "nav": 102762.68,
+          "return_pct": 2.763,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 09:30:00",
+          "symbol": "ETH/USD",
+          "nav": 102762.68,
+          "return_pct": 2.763,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 10:00:00",
+          "symbol": "BTC/USD",
+          "nav": 102762.68,
+          "return_pct": 2.763,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 10:00:00",
+          "symbol": "ETH/USD",
+          "nav": 102762.68,
+          "return_pct": 2.763,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 10:30:00",
+          "symbol": "BTC/USD",
+          "nav": 102762.68,
+          "return_pct": 2.763,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 10:30:00",
+          "symbol": "ETH/USD",
+          "nav": 102762.68,
+          "return_pct": 2.763,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 11:00:00",
+          "symbol": "BTC/USD",
+          "nav": 102859.31,
+          "return_pct": 2.859,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-21 11:00:00",
+          "symbol": "ETH/USD",
+          "nav": 102769.49,
+          "return_pct": 2.769,
+          "position": -1.0
+        },
+        {
+          "timestamp": "2026-11-21 11:30:00",
+          "symbol": "BTC/USD",
+          "nav": 102651.48,
+          "return_pct": 2.651,
+          "position": -1.0
+        },
+        {
+          "timestamp": "2026-11-21 11:30:00",
+          "symbol": "ETH/USD",
+          "nav": 102592.8,
+          "return_pct": 2.593,
+          "position": -1.0
+        },
+        {
+          "timestamp": "2026-11-21 12:00:00",
+          "symbol": "BTC/USD",
+          "nav": 102509.65,
+          "return_pct": 2.51,
+          "position": -1.0
+        },
+        {
+          "timestamp": "2026-11-21 12:00:00",
+          "symbol": "ETH/USD",
+          "nav": 102465.46,
+          "return_pct": 2.465,
+          "position": -1.0
+        },
+        {
+          "timestamp": "2026-11-21 12:30:00",
+          "symbol": "BTC/USD",
+          "nav": 102402.91,
+          "return_pct": 2.403,
+          "position": -1.0
+        },
+        {
+          "timestamp": "2026-11-21 12:30:00",
+          "symbol": "ETH/USD",
+          "nav": 102366.28,
+          "return_pct": 2.366,
+          "position": -1.0
+        },
+        {
+          "timestamp": "2026-11-21 13:00:00",
+          "symbol": "BTC/USD",
+          "nav": 102331.44,
+          "return_pct": 2.331,
+          "position": -1.0
+        },
+        {
+          "timestamp": "2026-11-21 13:00:00",
+          "symbol": "ETH/USD",
+          "nav": 102316.51,
+          "return_pct": 2.317,
+          "position": -1.0
+        },
+        {
+          "timestamp": "2026-11-21 13:30:00",
+          "symbol": "BTC/USD",
+          "nav": 102341.39,
+          "return_pct": 2.341,
+          "position": -1.0
+        },
+        {
+          "timestamp": "2026-11-21 13:30:00",
+          "symbol": "ETH/USD",
+          "nav": 102377.74,
+          "return_pct": 2.378,
+          "position": -1.0
+        },
+        {
+          "timestamp": "2026-11-21 14:00:00",
+          "symbol": "BTC/USD",
+          "nav": 102365.27,
+          "return_pct": 2.365,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 14:00:00",
+          "symbol": "ETH/USD",
+          "nav": 102328.35,
+          "return_pct": 2.328,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-21 14:30:00",
+          "symbol": "BTC/USD",
+          "nav": 102328.35,
+          "return_pct": 2.328,
+          "position": 0.0
+        }
+      ]
+    },
+    "Cascade_C1": {
+      "account_id": "Cascade_C1",
+      "nav": 102481.92,
+      "cumulative_return_pct": 2.482,
+      "sharpe_ratio": 2.562,
+      "max_drawdown_pct": 2.327,
+      "total_trades": 295,
+      "turnover": 339.0,
+      "history_points": 1145,
+      "nav_history": [
+        {
+          "timestamp": "2026-11-20 15:30:00",
+          "symbol": "TSLA",
+          "nav": 102838.94,
+          "return_pct": 2.839,
+          "position": -1.0
+        },
+        {
+          "timestamp": "2026-11-20 16:00:00",
+          "symbol": "BTC/USD",
+          "nav": 102814.26,
+          "return_pct": 2.814,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-20 16:00:00",
+          "symbol": "ETH/USD",
+          "nav": 102759.59,
+          "return_pct": 2.76,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-20 16:00:00",
+          "symbol": "NVDA",
+          "nav": 102521.07,
+          "return_pct": 2.521,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-20 16:00:00",
+          "symbol": "TSLA",
+          "nav": 102633.31,
+          "return_pct": 2.633,
+          "position": -1.0
+        },
+        {
+          "timestamp": "2026-11-20 16:30:00",
+          "symbol": "BTC/USD",
+          "nav": 102620.92,
+          "return_pct": 2.621,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-20 16:30:00",
+          "symbol": "ETH/USD",
+          "nav": 102538.78,
+          "return_pct": 2.539,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-20 16:30:00",
+          "symbol": "NVDA",
+          "nav": 102263.39,
+          "return_pct": 2.263,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-20 16:30:00",
+          "symbol": "TSLA",
+          "nav": 102348.99,
+          "return_pct": 2.349,
+          "position": -1.0
+        },
+        {
+          "timestamp": "2026-11-20 17:00:00",
+          "symbol": "BTC/USD",
+          "nav": 102303.41,
+          "return_pct": 2.303,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-20 17:00:00",
+          "symbol": "ETH/USD",
+          "nav": 102264.13,
+          "return_pct": 2.264,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-20 17:00:00",
+          "symbol": "NVDA",
+          "nav": 102076.04,
+          "return_pct": 2.076,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-20 17:00:00",
+          "symbol": "TSLA",
+          "nav": 102111.82,
+          "return_pct": 2.112,
+          "position": -1.0
+        },
+        {
+          "timestamp": "2026-11-20 17:30:00",
+          "symbol": "BTC/USD",
+          "nav": 102101.5,
+          "return_pct": 2.101,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-20 17:30:00",
+          "symbol": "ETH/USD",
+          "nav": 102077.34,
+          "return_pct": 2.077,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-20 17:30:00",
+          "symbol": "NVDA",
+          "nav": 101909.86,
+          "return_pct": 1.91,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-20 17:30:00",
+          "symbol": "TSLA",
+          "nav": 101939.77,
+          "return_pct": 1.94,
+          "position": -1.0
+        },
+        {
+          "timestamp": "2026-11-20 18:00:00",
+          "symbol": "BTC/USD",
+          "nav": 101944.04,
+          "return_pct": 1.944,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-20 18:00:00",
+          "symbol": "ETH/USD",
+          "nav": 101924.14,
+          "return_pct": 1.924,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-20 18:30:00",
+          "symbol": "BTC/USD",
+          "nav": 101961.35,
+          "return_pct": 1.961,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-20 18:30:00",
+          "symbol": "ETH/USD",
+          "nav": 101969.65,
+          "return_pct": 1.97,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-20 19:00:00",
+          "symbol": "BTC/USD",
+          "nav": 102010.72,
+          "return_pct": 2.011,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-20 19:00:00",
+          "symbol": "ETH/USD",
+          "nav": 102053.39,
+          "return_pct": 2.053,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-20 19:30:00",
+          "symbol": "BTC/USD",
+          "nav": 102040.99,
+          "return_pct": 2.041,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-20 19:30:00",
+          "symbol": "ETH/USD",
+          "nav": 102065.84,
+          "return_pct": 2.066,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-20 20:00:00",
+          "symbol": "BTC/USD",
+          "nav": 102065.84,
+          "return_pct": 2.066,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-20 20:00:00",
+          "symbol": "ETH/USD",
+          "nav": 102053.81,
+          "return_pct": 2.054,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-20 20:30:00",
+          "symbol": "BTC/USD",
+          "nav": 102071.0,
+          "return_pct": 2.071,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-20 20:30:00",
+          "symbol": "ETH/USD",
+          "nav": 102098.01,
+          "return_pct": 2.098,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-20 21:00:00",
+          "symbol": "BTC/USD",
+          "nav": 102113.88,
+          "return_pct": 2.114,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-20 21:00:00",
+          "symbol": "ETH/USD",
+          "nav": 102132.7,
+          "return_pct": 2.133,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-20 21:30:00",
+          "symbol": "BTC/USD",
+          "nav": 102120.29,
+          "return_pct": 2.12,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-20 21:30:00",
+          "symbol": "ETH/USD",
+          "nav": 102133.42,
+          "return_pct": 2.133,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-20 22:00:00",
+          "symbol": "BTC/USD",
+          "nav": 102133.42,
+          "return_pct": 2.133,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-20 22:00:00",
+          "symbol": "ETH/USD",
+          "nav": 102121.37,
+          "return_pct": 2.121,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-20 22:30:00",
+          "symbol": "BTC/USD",
+          "nav": 102121.37,
+          "return_pct": 2.121,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-20 22:30:00",
+          "symbol": "ETH/USD",
+          "nav": 102121.37,
+          "return_pct": 2.121,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-20 23:00:00",
+          "symbol": "BTC/USD",
+          "nav": 102121.37,
+          "return_pct": 2.121,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-20 23:00:00",
+          "symbol": "ETH/USD",
+          "nav": 102121.37,
+          "return_pct": 2.121,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-20 23:30:00",
+          "symbol": "BTC/USD",
+          "nav": 102121.37,
+          "return_pct": 2.121,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-20 23:30:00",
+          "symbol": "ETH/USD",
+          "nav": 102121.37,
+          "return_pct": 2.121,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 00:00:00",
+          "symbol": "BTC/USD",
+          "nav": 102121.37,
+          "return_pct": 2.121,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 00:00:00",
+          "symbol": "ETH/USD",
+          "nav": 102121.37,
+          "return_pct": 2.121,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 00:30:00",
+          "symbol": "BTC/USD",
+          "nav": 102121.37,
+          "return_pct": 2.121,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 00:30:00",
+          "symbol": "ETH/USD",
+          "nav": 102121.37,
+          "return_pct": 2.121,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 01:00:00",
+          "symbol": "BTC/USD",
+          "nav": 102121.37,
+          "return_pct": 2.121,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 01:00:00",
+          "symbol": "ETH/USD",
+          "nav": 102121.37,
+          "return_pct": 2.121,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 01:30:00",
+          "symbol": "BTC/USD",
+          "nav": 102121.37,
+          "return_pct": 2.121,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 01:30:00",
+          "symbol": "ETH/USD",
+          "nav": 102121.37,
+          "return_pct": 2.121,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 02:00:00",
+          "symbol": "BTC/USD",
+          "nav": 101962.03,
+          "return_pct": 1.962,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-21 02:00:00",
+          "symbol": "ETH/USD",
+          "nav": 101962.03,
+          "return_pct": 1.962,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 02:30:00",
+          "symbol": "BTC/USD",
+          "nav": 101949.7,
+          "return_pct": 1.95,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 02:30:00",
+          "symbol": "ETH/USD",
+          "nav": 101949.7,
+          "return_pct": 1.95,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 03:00:00",
+          "symbol": "BTC/USD",
+          "nav": 101949.7,
+          "return_pct": 1.95,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 03:00:00",
+          "symbol": "ETH/USD",
+          "nav": 101949.7,
+          "return_pct": 1.95,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 03:30:00",
+          "symbol": "BTC/USD",
+          "nav": 102004.71,
+          "return_pct": 2.005,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-21 03:30:00",
+          "symbol": "ETH/USD",
+          "nav": 102004.71,
+          "return_pct": 2.005,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 04:00:00",
+          "symbol": "BTC/USD",
+          "nav": 102111.01,
+          "return_pct": 2.111,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-21 04:00:00",
+          "symbol": "ETH/USD",
+          "nav": 102244.81,
+          "return_pct": 2.245,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-21 04:30:00",
+          "symbol": "BTC/USD",
+          "nav": 102325.78,
+          "return_pct": 2.326,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-21 04:30:00",
+          "symbol": "ETH/USD",
+          "nav": 102454.67,
+          "return_pct": 2.455,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-21 05:00:00",
+          "symbol": "BTC/USD",
+          "nav": 102558.17,
+          "return_pct": 2.558,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-21 05:00:00",
+          "symbol": "ETH/USD",
+          "nav": 102545.98,
+          "return_pct": 2.546,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 05:30:00",
+          "symbol": "BTC/USD",
+          "nav": 102669.84,
+          "return_pct": 2.67,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-21 05:30:00",
+          "symbol": "ETH/USD",
+          "nav": 102806.99,
+          "return_pct": 2.807,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-21 06:00:00",
+          "symbol": "BTC/USD",
+          "nav": 102917.61,
+          "return_pct": 2.918,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-21 06:00:00",
+          "symbol": "ETH/USD",
+          "nav": 102905.37,
+          "return_pct": 2.905,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 06:30:00",
+          "symbol": "BTC/USD",
+          "nav": 102892.76,
+          "return_pct": 2.893,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 06:30:00",
+          "symbol": "ETH/USD",
+          "nav": 102892.76,
+          "return_pct": 2.893,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 07:00:00",
+          "symbol": "BTC/USD",
+          "nav": 102892.76,
+          "return_pct": 2.893,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 07:00:00",
+          "symbol": "ETH/USD",
+          "nav": 102892.76,
+          "return_pct": 2.893,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 07:30:00",
+          "symbol": "BTC/USD",
+          "nav": 102892.76,
+          "return_pct": 2.893,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 07:30:00",
+          "symbol": "ETH/USD",
+          "nav": 102892.76,
+          "return_pct": 2.893,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 08:00:00",
+          "symbol": "BTC/USD",
+          "nav": 102892.76,
+          "return_pct": 2.893,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 08:00:00",
+          "symbol": "ETH/USD",
+          "nav": 102892.76,
+          "return_pct": 2.893,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 08:30:00",
+          "symbol": "BTC/USD",
+          "nav": 102892.76,
+          "return_pct": 2.893,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 08:30:00",
+          "symbol": "ETH/USD",
+          "nav": 102892.76,
+          "return_pct": 2.893,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 09:00:00",
+          "symbol": "BTC/USD",
+          "nav": 102892.76,
+          "return_pct": 2.893,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 09:00:00",
+          "symbol": "ETH/USD",
+          "nav": 102892.76,
+          "return_pct": 2.893,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 09:30:00",
+          "symbol": "BTC/USD",
+          "nav": 102892.76,
+          "return_pct": 2.893,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 09:30:00",
+          "symbol": "ETH/USD",
+          "nav": 102892.76,
+          "return_pct": 2.893,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 10:00:00",
+          "symbol": "BTC/USD",
+          "nav": 102892.76,
+          "return_pct": 2.893,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 10:00:00",
+          "symbol": "ETH/USD",
+          "nav": 102892.76,
+          "return_pct": 2.893,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 10:30:00",
+          "symbol": "BTC/USD",
+          "nav": 102892.76,
+          "return_pct": 2.893,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 10:30:00",
+          "symbol": "ETH/USD",
+          "nav": 102892.76,
+          "return_pct": 2.893,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 11:00:00",
+          "symbol": "BTC/USD",
+          "nav": 102989.74,
+          "return_pct": 2.99,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-21 11:00:00",
+          "symbol": "ETH/USD",
+          "nav": 102899.69,
+          "return_pct": 2.9,
+          "position": -1.0
+        },
+        {
+          "timestamp": "2026-11-21 11:30:00",
+          "symbol": "BTC/USD",
+          "nav": 102781.24,
+          "return_pct": 2.781,
+          "position": -1.0
+        },
+        {
+          "timestamp": "2026-11-21 11:30:00",
+          "symbol": "ETH/USD",
+          "nav": 102722.4,
+          "return_pct": 2.722,
+          "position": -1.0
+        },
+        {
+          "timestamp": "2026-11-21 12:00:00",
+          "symbol": "BTC/USD",
+          "nav": 102638.95,
+          "return_pct": 2.639,
+          "position": -1.0
+        },
+        {
+          "timestamp": "2026-11-21 12:00:00",
+          "symbol": "ETH/USD",
+          "nav": 102594.64,
+          "return_pct": 2.595,
+          "position": -1.0
+        },
+        {
+          "timestamp": "2026-11-21 12:30:00",
+          "symbol": "BTC/USD",
+          "nav": 102531.85,
+          "return_pct": 2.532,
+          "position": -1.0
+        },
+        {
+          "timestamp": "2026-11-21 12:30:00",
+          "symbol": "ETH/USD",
+          "nav": 102544.3,
+          "return_pct": 2.544,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-21 13:00:00",
+          "symbol": "BTC/USD",
+          "nav": 102509.34,
+          "return_pct": 2.509,
+          "position": -1.0
+        },
+        {
+          "timestamp": "2026-11-21 13:00:00",
+          "symbol": "ETH/USD",
+          "nav": 102470.04,
+          "return_pct": 2.47,
+          "position": -1.0
+        },
+        {
+          "timestamp": "2026-11-21 13:30:00",
+          "symbol": "BTC/USD",
+          "nav": 102495.01,
+          "return_pct": 2.495,
+          "position": -1.0
+        },
+        {
+          "timestamp": "2026-11-21 13:30:00",
+          "symbol": "ETH/USD",
+          "nav": 102531.49,
+          "return_pct": 2.531,
+          "position": -1.0
+        },
+        {
+          "timestamp": "2026-11-21 14:00:00",
+          "symbol": "BTC/USD",
+          "nav": 102518.97,
+          "return_pct": 2.519,
+          "position": 0.0
+        },
+        {
+          "timestamp": "2026-11-21 14:00:00",
+          "symbol": "ETH/USD",
+          "nav": 102481.92,
+          "return_pct": 2.482,
+          "position": 1.0
+        },
+        {
+          "timestamp": "2026-11-21 14:30:00",
+          "symbol": "BTC/USD",
+          "nav": 102481.92,
+          "return_pct": 2.482,
+          "position": 0.0
+        }
+      ]
+    }
+  }
+}

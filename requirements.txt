@@ -1,0 +1,9 @@
+# Core runtime dependencies for HybridCascade (Pinned to active environment)
+# Created: 2026-11-09 11:35 (Asia/Shanghai)
+
+httpx==0.27.0
+pydantic==2.5.3
+numpy==1.26.4
+scipy==1.13.1
+scikit-learn==1.4.2
+tqdm==4.66.4

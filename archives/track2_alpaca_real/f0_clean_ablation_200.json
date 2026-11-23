@@ -1,0 +1,81 @@
+{
+  "metadata": {
+    "description": "Clean 3-field F0 ablation (removing prior_stance_evaluation entirely)",
+    "total_escalated_ticks": 200,
+    "requests": 400,
+    "strict_json_parse_failures": 0,
+    "cost_usd": 1.137722,
+    "cost_by_model": {
+      "gpt-6.1-sol": {
+        "requests": 200,
+        "prompt_tokens": 100897,
+        "completion_tokens": 77367,
+        "reasoning_tokens": 23505,
+        "total_tokens": 178264,
+        "cost_usd": 1.025921
+      },
+      "deepseek-v4.1-flash": {
+        "requests": 200,
+        "prompt_tokens": 114398,
+        "completion_tokens": 342064,
+        "reasoning_tokens": 283929,
+        "total_tokens": 456462,
+        "cost_usd": 0.111801
+      }
+    }
+  },
+  "f0_clean_3field": {
+    "gpt-6.1-sol": {
+      "n_escalated": 200,
+      "three_class_correct": 48,
+      "three_class_acc_pct": 24.0,
+      "n_wrong_jev": 135,
+      "error_follow_count": 68,
+      "error_follow_pct": 50.37,
+      "rescue_count": 22,
+      "rescue_pct": 16.3,
+      "n_ok_jev": 65,
+      "harm_count": 39,
+      "harm_pct": 60.0,
+      "conflict_escalated_acc_pct": 31.25,
+      "conflict_escalated_count": 16,
+      "active_trades": 46,
+      "active_trade_rate_pct": 23.0,
+      "active_wins": 26,
+      "directional_win_rate_pct": 56.52,
+      "avg_win_bps": 285.12,
+      "avg_loss_bps": 165.0,
+      "payoff_ratio": 1.73,
+      "mean_signed_return_bps": 20.57,
+      "cumulative_signed_return_pct": 41.13,
+      "agreement_with_f0_4field_pct": 85.5,
+      "f1_minus_f0_clean_anchor_pp": -2.96
+    },
+    "deepseek-v4.1-flash": {
+      "n_escalated": 200,
+      "three_class_correct": 65,
+      "three_class_acc_pct": 32.5,
+      "n_wrong_jev": 135,
+      "error_follow_count": 52,
+      "error_follow_pct": 38.52,
+      "rescue_count": 34,
+      "rescue_pct": 25.19,
+      "n_ok_jev": 65,
+      "harm_count": 34,
+      "harm_pct": 52.31,
+      "conflict_escalated_acc_pct": 31.25,
+      "conflict_escalated_count": 16,
+      "active_trades": 127,
+      "active_trade_rate_pct": 63.5,
+      "active_wins": 68,
+      "directional_win_rate_pct": 53.54,
+      "avg_win_bps": 217.35,
+      "avg_loss_bps": 204.4,
+      "payoff_ratio": 1.06,
+      "mean_signed_return_bps": 13.6,
+      "cumulative_signed_return_pct": 27.2,
+      "agreement_with_f0_4field_pct": 71.0,
+      "f1_minus_f0_clean_anchor_pp": -2.22
+    }
+  }
+}
