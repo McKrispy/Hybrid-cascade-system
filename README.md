@@ -5,6 +5,7 @@
 ### *When Does Showing a Small Model's Prior Help vs. Hurt Frontier Reasoning Models?*
 
 [![Preprint](https://img.shields.io/badge/Preprint-8--Page_IEEE_PDF-b31b1b.svg)](Hybrid_Cascade_System_Preprint.pdf)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Python](https://img.shields.io/badge/Python-3.12-3776AB.svg)](requirements.txt)
 [![Audited Requests](https://img.shields.io/badge/Live_API_Audit-42%2C035_Requests-0f766e.svg)](#headline-empirical-findings)
 [![Offline Reproducible](https://img.shields.io/badge/Track_2_Verification-Zero_API_Cost-16a34a.svg)](#quickstart-zero-cost-offline-verification)
